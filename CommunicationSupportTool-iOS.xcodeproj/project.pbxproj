@@ -8,11 +8,404 @@
 
 /* Begin PBXBuildFile section */
 		D71326261AF347BF003A5932 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71326251AF347BF003A5932 /* AppDelegate.swift */; };
-		D71326281AF347BF003A5932 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71326271AF347BF003A5932 /* ViewController.swift */; };
+		D71326281AF347BF003A5932 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71326271AF347BF003A5932 /* TableViewController.swift */; };
 		D713262B1AF347BF003A5932 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D71326291AF347BF003A5932 /* Main.storyboard */; };
 		D713262D1AF347BF003A5932 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D713262C1AF347BF003A5932 /* Images.xcassets */; };
 		D71326301AF347BF003A5932 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D713262E1AF347BF003A5932 /* LaunchScreen.xib */; };
 		D713263C1AF347BF003A5932 /* CommunicationSupportTool_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D713263B1AF347BF003A5932 /* CommunicationSupportTool_iOSTests.swift */; };
+		D7D9B8871AF356F3003C3AD9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7D9B8861AF356F3003C3AD9 /* AVFoundation.framework */; };
+		D7D9BA191AF35B30003C3AD9 /* kameone12.html in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B88C1AF35B2F003C3AD9 /* kameone12.html */; };
+		D7D9BA1A1AF35B30003C3AD9 /* Uma.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B88E1AF35B2F003C3AD9 /* Uma.jpg */; };
+		D7D9BA1B1AF35B30003C3AD9 /* あー調べてました.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B88F1AF35B2F003C3AD9 /* あー調べてました.mp3 */; };
+		D7D9BA1C1AF35B30003C3AD9 /* いえぇぇえ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8901AF35B2F003C3AD9 /* いえぇぇえ.mp3 */; };
+		D7D9BA1D1AF35B30003C3AD9 /* いやぁ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8911AF35B2F003C3AD9 /* いやぁ.mp3 */; };
+		D7D9BA1E1AF35B30003C3AD9 /* いやぁー.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8921AF35B2F003C3AD9 /* いやぁー.mp3 */; };
+		D7D9BA1F1AF35B30003C3AD9 /* いやいや.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8931AF35B2F003C3AD9 /* いやいや.mp3 */; };
+		D7D9BA201AF35B30003C3AD9 /* いやいやいやいや.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8941AF35B2F003C3AD9 /* いやいやいやいや.mp3 */; };
+		D7D9BA211AF35B30003C3AD9 /* うまべ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8951AF35B2F003C3AD9 /* うまべ.mp3 */; };
+		D7D9BA221AF35B30003C3AD9 /* え.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8961AF35B2F003C3AD9 /* え.mp3 */; };
+		D7D9BA231AF35B30003C3AD9 /* えへへ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8971AF35B2F003C3AD9 /* えへへ.mp3 */; };
+		D7D9BA241AF35B30003C3AD9 /* えー.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8981AF35B2F003C3AD9 /* えー.mp3 */; };
+		D7D9BA251AF35B30003C3AD9 /* えー！.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8991AF35B2F003C3AD9 /* えー！.mp3 */; };
+		D7D9BA261AF35B30003C3AD9 /* えー？.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B89A1AF35B2F003C3AD9 /* えー？.mp3 */; };
+		D7D9BA271AF35B30003C3AD9 /* え？（低音）.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B89B1AF35B2F003C3AD9 /* え？（低音）.mp3 */; };
+		D7D9BA281AF35B30003C3AD9 /* おしまい？.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B89C1AF35B2F003C3AD9 /* おしまい？.mp3 */; };
+		D7D9BA291AF35B30003C3AD9 /* それだめじゃないです.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B89D1AF35B2F003C3AD9 /* それだめじゃないです.mp3 */; };
+		D7D9BA2A1AF35B30003C3AD9 /* それ思った.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B89E1AF35B2F003C3AD9 /* それ思った.mp3 */; };
+		D7D9BA2B1AF35B30003C3AD9 /* な？何を言ってる？.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B89F1AF35B2F003C3AD9 /* な？何を言ってる？.mp3 */; };
+		D7D9BA2C1AF35B30003C3AD9 /* はい！.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8A01AF35B2F003C3AD9 /* はい！.mp3 */; };
+		D7D9BA2D1AF35B30003C3AD9 /* ひゃぁー！.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8A11AF35B2F003C3AD9 /* ひゃぁー！.mp3 */; };
+		D7D9BA2E1AF35B30003C3AD9 /* ふええ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8A21AF35B2F003C3AD9 /* ふええ.mp3 */; };
+		D7D9BA2F1AF35B30003C3AD9 /* ものすごく困る.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8A31AF35B2F003C3AD9 /* ものすごく困る.mp3 */; };
+		D7D9BA301AF35B30003C3AD9 /* わけわからん.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8A41AF35B2F003C3AD9 /* わけわからん.mp3 */; };
+		D7D9BA311AF35B30003C3AD9 /* 何ですか.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8A51AF35B2F003C3AD9 /* 何ですか.mp3 */; };
+		D7D9BA321AF35B30003C3AD9 /* 何のことです.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8A61AF35B2F003C3AD9 /* 何のことです.mp3 */; };
+		D7D9BA331AF35B30003C3AD9 /* 何の再履修です.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8A71AF35B2F003C3AD9 /* 何の再履修です.mp3 */; };
+		D7D9BA341AF35B30003C3AD9 /* 最終的に焼き鳥になるんですか？.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8A81AF35B2F003C3AD9 /* 最終的に焼き鳥になるんですか？.mp3 */; };
+		D7D9BA351AF35B30003C3AD9 /* 無茶ぶりは.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8A91AF35B2F003C3AD9 /* 無茶ぶりは.mp3 */; };
+		D7D9BA361AF35B30003C3AD9 /* 焼き鳥.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8AA1AF35B2F003C3AD9 /* 焼き鳥.mp3 */; };
+		D7D9BA371AF35B30003C3AD9 /* 私も頑張りますぅ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8AB1AF35B2F003C3AD9 /* 私も頑張りますぅ.mp3 */; };
+		D7D9BA381AF35B30003C3AD9 /* 言えませんよ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8AC1AF35B2F003C3AD9 /* 言えませんよ.mp3 */; };
+		D7D9BA391AF35B30003C3AD9 /* 頑張って下さい.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8AD1AF35B2F003C3AD9 /* 頑張って下さい.mp3 */; };
+		D7D9BA3A1AF35B30003C3AD9 /* 食べられるんですか？.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8AE1AF35B2F003C3AD9 /* 食べられるんですか？.mp3 */; };
+		D7D9BA3B1AF35B30003C3AD9 /* うまべ感情.html in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8AF1AF35B2F003C3AD9 /* うまべ感情.html */; };
+		D7D9BA3C1AF35B30003C3AD9 /* 音声データ.html in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8B01AF35B2F003C3AD9 /* 音声データ.html */; };
+		D7D9BA3D1AF35B30003C3AD9 /* ありがとうございます(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8B21AF35B2F003C3AD9 /* ありがとうございます(嫌悪).m4a */; };
+		D7D9BA3E1AF35B30003C3AD9 /* ありがとうございます(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8B31AF35B2F003C3AD9 /* ありがとうございます(幸福感).m4a */; };
+		D7D9BA3F1AF35B30003C3AD9 /* ありがとうございます(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8B41AF35B2F003C3AD9 /* ありがとうございます(怒り).m4a */; };
+		D7D9BA401AF35B30003C3AD9 /* ありがとうございます(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8B51AF35B2F003C3AD9 /* ありがとうございます(恐れ).m4a */; };
+		D7D9BA411AF35B30003C3AD9 /* ありがとうございます(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8B61AF35B2F003C3AD9 /* ありがとうございます(悲しみ).m4a */; };
+		D7D9BA421AF35B30003C3AD9 /* ありがとうございます(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8B71AF35B2F003C3AD9 /* ありがとうございます(驚き).m4a */; };
+		D7D9BA431AF35B30003C3AD9 /* いいえ(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8B81AF35B2F003C3AD9 /* いいえ(嫌悪).m4a */; };
+		D7D9BA441AF35B30003C3AD9 /* いいえ(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8B91AF35B2F003C3AD9 /* いいえ(幸福感).m4a */; };
+		D7D9BA451AF35B30003C3AD9 /* いいえ(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8BA1AF35B2F003C3AD9 /* いいえ(怒り).m4a */; };
+		D7D9BA461AF35B30003C3AD9 /* いいえ(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8BB1AF35B2F003C3AD9 /* いいえ(恐れ).m4a */; };
+		D7D9BA471AF35B30003C3AD9 /* いいえ(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8BC1AF35B2F003C3AD9 /* いいえ(悲しみ).m4a */; };
+		D7D9BA481AF35B30003C3AD9 /* いいえ(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8BD1AF35B2F003C3AD9 /* いいえ(驚き).m4a */; };
+		D7D9BA491AF35B30003C3AD9 /* いえ、そんなことないですよ(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8BE1AF35B2F003C3AD9 /* いえ、そんなことないですよ(嫌悪).m4a */; };
+		D7D9BA4A1AF35B30003C3AD9 /* いえ、そんなことないですよ(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8BF1AF35B2F003C3AD9 /* いえ、そんなことないですよ(幸福感).m4a */; };
+		D7D9BA4B1AF35B30003C3AD9 /* いえ、そんなことないですよ(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8C01AF35B2F003C3AD9 /* いえ、そんなことないですよ(怒り).m4a */; };
+		D7D9BA4C1AF35B30003C3AD9 /* いえ、そんなことないですよ(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8C11AF35B2F003C3AD9 /* いえ、そんなことないですよ(恐れ).m4a */; };
+		D7D9BA4D1AF35B30003C3AD9 /* いえ、そんなことないですよ(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8C21AF35B2F003C3AD9 /* いえ、そんなことないですよ(悲しみ).m4a */; };
+		D7D9BA4E1AF35B30003C3AD9 /* いえ、そんなことないですよ(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8C31AF35B2F003C3AD9 /* いえ、そんなことないですよ(驚き).m4a */; };
+		D7D9BA4F1AF35B30003C3AD9 /* おっしゃる通りです(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8C41AF35B2F003C3AD9 /* おっしゃる通りです(嫌悪).m4a */; };
+		D7D9BA501AF35B30003C3AD9 /* おっしゃる通りです(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8C51AF35B2F003C3AD9 /* おっしゃる通りです(幸福感).m4a */; };
+		D7D9BA511AF35B30003C3AD9 /* おっしゃる通りです(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8C61AF35B2F003C3AD9 /* おっしゃる通りです(怒り).m4a */; };
+		D7D9BA521AF35B30003C3AD9 /* おっしゃる通りです(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8C71AF35B2F003C3AD9 /* おっしゃる通りです(恐れ).m4a */; };
+		D7D9BA531AF35B30003C3AD9 /* おっしゃる通りです(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8C81AF35B2F003C3AD9 /* おっしゃる通りです(悲しみ).m4a */; };
+		D7D9BA541AF35B30003C3AD9 /* おっしゃる通りです(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8C91AF35B2F003C3AD9 /* おっしゃる通りです(驚き).m4a */; };
+		D7D9BA551AF35B30003C3AD9 /* さすがですね(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8CA1AF35B2F003C3AD9 /* さすがですね(嫌悪).m4a */; };
+		D7D9BA561AF35B30003C3AD9 /* さすがですね(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8CB1AF35B2F003C3AD9 /* さすがですね(幸福感).m4a */; };
+		D7D9BA571AF35B30003C3AD9 /* さすがですね(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8CC1AF35B2F003C3AD9 /* さすがですね(怒り).m4a */; };
+		D7D9BA581AF35B30003C3AD9 /* さすがですね(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8CD1AF35B2F003C3AD9 /* さすがですね(恐れ).m4a */; };
+		D7D9BA591AF35B30003C3AD9 /* さすがですね(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8CE1AF35B2F003C3AD9 /* さすがですね(悲しみ).m4a */; };
+		D7D9BA5A1AF35B30003C3AD9 /* さすがですね(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8CF1AF35B2F003C3AD9 /* さすがですね(驚き).m4a */; };
+		D7D9BA5B1AF35B30003C3AD9 /* すごいですね(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8D01AF35B2F003C3AD9 /* すごいですね(嫌悪).m4a */; };
+		D7D9BA5C1AF35B30003C3AD9 /* すごいですね(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8D11AF35B2F003C3AD9 /* すごいですね(幸福感).m4a */; };
+		D7D9BA5D1AF35B30003C3AD9 /* すごいですね(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8D21AF35B2F003C3AD9 /* すごいですね(怒り).m4a */; };
+		D7D9BA5E1AF35B30003C3AD9 /* すごいですね(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8D31AF35B2F003C3AD9 /* すごいですね(恐れ).m4a */; };
+		D7D9BA5F1AF35B30003C3AD9 /* すごいですね(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8D41AF35B2F003C3AD9 /* すごいですね(悲しみ).m4a */; };
+		D7D9BA601AF35B30003C3AD9 /* すごいですね(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8D51AF35B2F003C3AD9 /* すごいですね(驚き).m4a */; };
+		D7D9BA611AF35B30003C3AD9 /* すみません(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8D61AF35B2F003C3AD9 /* すみません(嫌悪).m4a */; };
+		D7D9BA621AF35B30003C3AD9 /* すみません(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8D71AF35B2F003C3AD9 /* すみません(幸福感).m4a */; };
+		D7D9BA631AF35B30003C3AD9 /* すみません(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8D81AF35B2F003C3AD9 /* すみません(怒り).m4a */; };
+		D7D9BA641AF35B30003C3AD9 /* すみません(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8D91AF35B2F003C3AD9 /* すみません(恐れ).m4a */; };
+		D7D9BA651AF35B30003C3AD9 /* すみません(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8DA1AF35B2F003C3AD9 /* すみません(悲しみ).m4a */; };
+		D7D9BA661AF35B30003C3AD9 /* すみません(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8DB1AF35B2F003C3AD9 /* すみません(驚き).m4a */; };
+		D7D9BA671AF35B30003C3AD9 /* ぜひおねがいします(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8DC1AF35B2F003C3AD9 /* ぜひおねがいします(嫌悪).m4a */; };
+		D7D9BA681AF35B30003C3AD9 /* ぜひおねがいします(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8DD1AF35B2F003C3AD9 /* ぜひおねがいします(幸福感).m4a */; };
+		D7D9BA691AF35B30003C3AD9 /* ぜひおねがいします(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8DE1AF35B2F003C3AD9 /* ぜひおねがいします(怒り).m4a */; };
+		D7D9BA6A1AF35B30003C3AD9 /* ぜひおねがいします(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8DF1AF35B2F003C3AD9 /* ぜひおねがいします(恐れ).m4a */; };
+		D7D9BA6B1AF35B30003C3AD9 /* ぜひおねがいします(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8E01AF35B2F003C3AD9 /* ぜひおねがいします(悲しみ).m4a */; };
+		D7D9BA6C1AF35B30003C3AD9 /* ぜひおねがいします(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8E11AF35B2F003C3AD9 /* ぜひおねがいします(驚き).m4a */; };
+		D7D9BA6D1AF35B30003C3AD9 /* はい(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8E21AF35B2F003C3AD9 /* はい(嫌悪).m4a */; };
+		D7D9BA6E1AF35B30003C3AD9 /* はい(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8E31AF35B2F003C3AD9 /* はい(幸福感).m4a */; };
+		D7D9BA6F1AF35B30003C3AD9 /* はい(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8E41AF35B2F003C3AD9 /* はい(怒り).m4a */; };
+		D7D9BA701AF35B30003C3AD9 /* はい(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8E51AF35B2F003C3AD9 /* はい(恐れ).m4a */; };
+		D7D9BA711AF35B30003C3AD9 /* はい(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8E61AF35B2F003C3AD9 /* はい(悲しみ).m4a */; };
+		D7D9BA721AF35B30003C3AD9 /* はい(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8E71AF35B2F003C3AD9 /* はい(驚き).m4a */; };
+		D7D9BA731AF35B30003C3AD9 /* ひどいですね(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8E81AF35B2F003C3AD9 /* ひどいですね(嫌悪).m4a */; };
+		D7D9BA741AF35B30003C3AD9 /* ひどいですね(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8E91AF35B2F003C3AD9 /* ひどいですね(幸福感).m4a */; };
+		D7D9BA751AF35B30003C3AD9 /* ひどいですね(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8EA1AF35B2F003C3AD9 /* ひどいですね(怒り).m4a */; };
+		D7D9BA761AF35B30003C3AD9 /* ひどいですね(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8EB1AF35B2F003C3AD9 /* ひどいですね(恐れ).m4a */; };
+		D7D9BA771AF35B30003C3AD9 /* ひどいですね(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8EC1AF35B2F003C3AD9 /* ひどいですね(悲しみ).m4a */; };
+		D7D9BA781AF35B30003C3AD9 /* ひどいですね(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8ED1AF35B2F003C3AD9 /* ひどいですね(驚き).m4a */; };
+		D7D9BA791AF35B30003C3AD9 /* 大丈夫？(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8EE1AF35B2F003C3AD9 /* 大丈夫？(嫌悪).m4a */; };
+		D7D9BA7A1AF35B30003C3AD9 /* 大丈夫？(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8EF1AF35B2F003C3AD9 /* 大丈夫？(幸福感).m4a */; };
+		D7D9BA7B1AF35B30003C3AD9 /* 大丈夫？(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8F01AF35B2F003C3AD9 /* 大丈夫？(怒り).m4a */; };
+		D7D9BA7C1AF35B30003C3AD9 /* 大丈夫？(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8F11AF35B2F003C3AD9 /* 大丈夫？(恐れ).m4a */; };
+		D7D9BA7D1AF35B30003C3AD9 /* 大丈夫？(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8F21AF35B2F003C3AD9 /* 大丈夫？(悲しみ).m4a */; };
+		D7D9BA7E1AF35B30003C3AD9 /* 大丈夫？(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8F31AF35B2F003C3AD9 /* 大丈夫？(驚き).m4a */; };
+		D7D9BA7F1AF35B30003C3AD9 /* 用事があるので失礼します(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8F41AF35B2F003C3AD9 /* 用事があるので失礼します(嫌悪).m4a */; };
+		D7D9BA801AF35B30003C3AD9 /* 用事があるので失礼します(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8F51AF35B2F003C3AD9 /* 用事があるので失礼します(幸福感).m4a */; };
+		D7D9BA811AF35B30003C3AD9 /* 用事があるので失礼します(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8F61AF35B2F003C3AD9 /* 用事があるので失礼します(怒り).m4a */; };
+		D7D9BA821AF35B30003C3AD9 /* 用事があるので失礼します(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8F71AF35B2F003C3AD9 /* 用事があるので失礼します(恐れ).m4a */; };
+		D7D9BA831AF35B30003C3AD9 /* 用事があるので失礼します(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8F81AF35B2F003C3AD9 /* 用事があるので失礼します(悲しみ).m4a */; };
+		D7D9BA841AF35B30003C3AD9 /* 用事があるので失礼します(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8F91AF35B2F003C3AD9 /* 用事があるので失礼します(驚き).m4a */; };
+		D7D9BA851AF35B30003C3AD9 /* 知りませんでした(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8FA1AF35B2F003C3AD9 /* 知りませんでした(嫌悪).m4a */; };
+		D7D9BA861AF35B30003C3AD9 /* 知りませんでした(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8FB1AF35B2F003C3AD9 /* 知りませんでした(幸福感).m4a */; };
+		D7D9BA871AF35B30003C3AD9 /* 知りませんでした(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8FC1AF35B2F003C3AD9 /* 知りませんでした(怒り).m4a */; };
+		D7D9BA881AF35B30003C3AD9 /* 知りませんでした(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8FD1AF35B2F003C3AD9 /* 知りませんでした(恐れ).m4a */; };
+		D7D9BA891AF35B30003C3AD9 /* 知りませんでした(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8FE1AF35B2F003C3AD9 /* 知りませんでした(悲しみ).m4a */; };
+		D7D9BA8A1AF35B30003C3AD9 /* 知りませんでした(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B8FF1AF35B2F003C3AD9 /* 知りませんでした(驚き).m4a */; };
+		D7D9BA8B1AF35B30003C3AD9 /* 結構です(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9001AF35B2F003C3AD9 /* 結構です(嫌悪).m4a */; };
+		D7D9BA8C1AF35B30003C3AD9 /* 結構です(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9011AF35B2F003C3AD9 /* 結構です(幸福感).m4a */; };
+		D7D9BA8D1AF35B30003C3AD9 /* 結構です(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9021AF35B2F003C3AD9 /* 結構です(怒り).m4a */; };
+		D7D9BA8E1AF35B30003C3AD9 /* 結構です(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9031AF35B2F003C3AD9 /* 結構です(恐れ).m4a */; };
+		D7D9BA8F1AF35B30003C3AD9 /* 結構です(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9041AF35B2F003C3AD9 /* 結構です(悲しみ).m4a */; };
+		D7D9BA901AF35B30003C3AD9 /* 結構です(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9051AF35B2F003C3AD9 /* 結構です(驚き).m4a */; };
+		D7D9BA911AF35B30003C3AD9 /* kameone12.html in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9071AF35B2F003C3AD9 /* kameone12.html */; };
+		D7D9BA921AF35B30003C3AD9 /* Uma.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9091AF35B2F003C3AD9 /* Uma.jpg */; };
+		D7D9BA931AF35B30003C3AD9 /* あー調べてました.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B90A1AF35B2F003C3AD9 /* あー調べてました.mp3 */; };
+		D7D9BA941AF35B30003C3AD9 /* いえぇぇえ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B90B1AF35B2F003C3AD9 /* いえぇぇえ.mp3 */; };
+		D7D9BA951AF35B30003C3AD9 /* いやぁ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B90C1AF35B2F003C3AD9 /* いやぁ.mp3 */; };
+		D7D9BA961AF35B30003C3AD9 /* いやぁー.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B90D1AF35B2F003C3AD9 /* いやぁー.mp3 */; };
+		D7D9BA971AF35B30003C3AD9 /* いやいや.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B90E1AF35B2F003C3AD9 /* いやいや.mp3 */; };
+		D7D9BA981AF35B30003C3AD9 /* いやいやいやいや.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B90F1AF35B2F003C3AD9 /* いやいやいやいや.mp3 */; };
+		D7D9BA991AF35B30003C3AD9 /* うまべ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9101AF35B2F003C3AD9 /* うまべ.mp3 */; };
+		D7D9BA9A1AF35B30003C3AD9 /* え.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9111AF35B2F003C3AD9 /* え.mp3 */; };
+		D7D9BA9B1AF35B30003C3AD9 /* えへへ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9121AF35B2F003C3AD9 /* えへへ.mp3 */; };
+		D7D9BA9C1AF35B30003C3AD9 /* えー.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9131AF35B2F003C3AD9 /* えー.mp3 */; };
+		D7D9BA9D1AF35B30003C3AD9 /* えー！.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9141AF35B2F003C3AD9 /* えー！.mp3 */; };
+		D7D9BA9E1AF35B30003C3AD9 /* えー？.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9151AF35B2F003C3AD9 /* えー？.mp3 */; };
+		D7D9BA9F1AF35B30003C3AD9 /* え？（低音）.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9161AF35B2F003C3AD9 /* え？（低音）.mp3 */; };
+		D7D9BAA01AF35B30003C3AD9 /* おしまい？.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9171AF35B2F003C3AD9 /* おしまい？.mp3 */; };
+		D7D9BAA11AF35B30003C3AD9 /* それだめじゃないです.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9181AF35B2F003C3AD9 /* それだめじゃないです.mp3 */; };
+		D7D9BAA21AF35B30003C3AD9 /* それ思った.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9191AF35B2F003C3AD9 /* それ思った.mp3 */; };
+		D7D9BAA31AF35B30003C3AD9 /* な？何を言ってる？.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B91A1AF35B2F003C3AD9 /* な？何を言ってる？.mp3 */; };
+		D7D9BAA41AF35B30003C3AD9 /* はい！.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B91B1AF35B2F003C3AD9 /* はい！.mp3 */; };
+		D7D9BAA51AF35B30003C3AD9 /* ひゃぁー！.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B91C1AF35B2F003C3AD9 /* ひゃぁー！.mp3 */; };
+		D7D9BAA61AF35B30003C3AD9 /* ふええ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B91D1AF35B2F003C3AD9 /* ふええ.mp3 */; };
+		D7D9BAA71AF35B30003C3AD9 /* ものすごく困る.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B91E1AF35B2F003C3AD9 /* ものすごく困る.mp3 */; };
+		D7D9BAA81AF35B30003C3AD9 /* わけわからん.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B91F1AF35B2F003C3AD9 /* わけわからん.mp3 */; };
+		D7D9BAA91AF35B30003C3AD9 /* 何ですか.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9201AF35B2F003C3AD9 /* 何ですか.mp3 */; };
+		D7D9BAAA1AF35B30003C3AD9 /* 何のことです.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9211AF35B2F003C3AD9 /* 何のことです.mp3 */; };
+		D7D9BAAB1AF35B30003C3AD9 /* 何の再履修です.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9221AF35B2F003C3AD9 /* 何の再履修です.mp3 */; };
+		D7D9BAAC1AF35B30003C3AD9 /* 最終的に焼き鳥になるんですか？.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9231AF35B2F003C3AD9 /* 最終的に焼き鳥になるんですか？.mp3 */; };
+		D7D9BAAD1AF35B30003C3AD9 /* 無茶ぶりは.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9241AF35B2F003C3AD9 /* 無茶ぶりは.mp3 */; };
+		D7D9BAAE1AF35B30003C3AD9 /* 焼き鳥.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9251AF35B2F003C3AD9 /* 焼き鳥.mp3 */; };
+		D7D9BAAF1AF35B30003C3AD9 /* 私も頑張りますぅ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9261AF35B2F003C3AD9 /* 私も頑張りますぅ.mp3 */; };
+		D7D9BAB01AF35B30003C3AD9 /* 言えませんよ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9271AF35B2F003C3AD9 /* 言えませんよ.mp3 */; };
+		D7D9BAB11AF35B30003C3AD9 /* 頑張って下さい.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9281AF35B2F003C3AD9 /* 頑張って下さい.mp3 */; };
+		D7D9BAB21AF35B30003C3AD9 /* 食べられるんですか？.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9291AF35B2F003C3AD9 /* 食べられるんですか？.mp3 */; };
+		D7D9BAB31AF35B30003C3AD9 /* うまべ感情.html in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B92A1AF35B2F003C3AD9 /* うまべ感情.html */; };
+		D7D9BAB41AF35B30003C3AD9 /* 音声データ.html in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B92B1AF35B2F003C3AD9 /* 音声データ.html */; };
+		D7D9BAB51AF35B30003C3AD9 /* ありがとうございます(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B92D1AF35B2F003C3AD9 /* ありがとうございます(嫌悪).m4a */; };
+		D7D9BAB61AF35B30003C3AD9 /* ありがとうございます(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B92E1AF35B2F003C3AD9 /* ありがとうございます(幸福感).m4a */; };
+		D7D9BAB71AF35B30003C3AD9 /* ありがとうございます(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B92F1AF35B2F003C3AD9 /* ありがとうございます(怒り).m4a */; };
+		D7D9BAB81AF35B30003C3AD9 /* ありがとうございます(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9301AF35B2F003C3AD9 /* ありがとうございます(恐れ).m4a */; };
+		D7D9BAB91AF35B30003C3AD9 /* ありがとうございます(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9311AF35B2F003C3AD9 /* ありがとうございます(悲しみ).m4a */; };
+		D7D9BABA1AF35B30003C3AD9 /* ありがとうございます(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9321AF35B2F003C3AD9 /* ありがとうございます(驚き).m4a */; };
+		D7D9BABB1AF35B30003C3AD9 /* いいえ(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9331AF35B2F003C3AD9 /* いいえ(嫌悪).m4a */; };
+		D7D9BABC1AF35B30003C3AD9 /* いいえ(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9341AF35B2F003C3AD9 /* いいえ(幸福感).m4a */; };
+		D7D9BABD1AF35B30003C3AD9 /* いいえ(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9351AF35B2F003C3AD9 /* いいえ(怒り).m4a */; };
+		D7D9BABE1AF35B30003C3AD9 /* いいえ(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9361AF35B2F003C3AD9 /* いいえ(恐れ).m4a */; };
+		D7D9BABF1AF35B30003C3AD9 /* いいえ(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9371AF35B2F003C3AD9 /* いいえ(悲しみ).m4a */; };
+		D7D9BAC01AF35B30003C3AD9 /* いいえ(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9381AF35B2F003C3AD9 /* いいえ(驚き).m4a */; };
+		D7D9BAC11AF35B30003C3AD9 /* いえ、そんなことないですよ(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9391AF35B2F003C3AD9 /* いえ、そんなことないですよ(嫌悪).m4a */; };
+		D7D9BAC21AF35B30003C3AD9 /* いえ、そんなことないですよ(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B93A1AF35B2F003C3AD9 /* いえ、そんなことないですよ(幸福感).m4a */; };
+		D7D9BAC31AF35B30003C3AD9 /* いえ、そんなことないですよ(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B93B1AF35B2F003C3AD9 /* いえ、そんなことないですよ(怒り).m4a */; };
+		D7D9BAC41AF35B30003C3AD9 /* いえ、そんなことないですよ(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B93C1AF35B2F003C3AD9 /* いえ、そんなことないですよ(恐れ).m4a */; };
+		D7D9BAC51AF35B30003C3AD9 /* いえ、そんなことないですよ(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B93D1AF35B2F003C3AD9 /* いえ、そんなことないですよ(悲しみ).m4a */; };
+		D7D9BAC61AF35B30003C3AD9 /* いえ、そんなことないですよ(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B93E1AF35B2F003C3AD9 /* いえ、そんなことないですよ(驚き).m4a */; };
+		D7D9BAC71AF35B30003C3AD9 /* おっしゃる通りです(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B93F1AF35B2F003C3AD9 /* おっしゃる通りです(嫌悪).m4a */; };
+		D7D9BAC81AF35B30003C3AD9 /* おっしゃる通りです(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9401AF35B2F003C3AD9 /* おっしゃる通りです(幸福感).m4a */; };
+		D7D9BAC91AF35B30003C3AD9 /* おっしゃる通りです(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9411AF35B2F003C3AD9 /* おっしゃる通りです(怒り).m4a */; };
+		D7D9BACA1AF35B30003C3AD9 /* おっしゃる通りです(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9421AF35B2F003C3AD9 /* おっしゃる通りです(恐れ).m4a */; };
+		D7D9BACB1AF35B30003C3AD9 /* おっしゃる通りです(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9431AF35B2F003C3AD9 /* おっしゃる通りです(悲しみ).m4a */; };
+		D7D9BACC1AF35B30003C3AD9 /* おっしゃる通りです(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9441AF35B2F003C3AD9 /* おっしゃる通りです(驚き).m4a */; };
+		D7D9BACD1AF35B30003C3AD9 /* さすがですね(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9451AF35B2F003C3AD9 /* さすがですね(嫌悪).m4a */; };
+		D7D9BACE1AF35B30003C3AD9 /* さすがですね(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9461AF35B2F003C3AD9 /* さすがですね(幸福感).m4a */; };
+		D7D9BACF1AF35B30003C3AD9 /* さすがですね(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9471AF35B2F003C3AD9 /* さすがですね(怒り).m4a */; };
+		D7D9BAD01AF35B30003C3AD9 /* さすがですね(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9481AF35B2F003C3AD9 /* さすがですね(恐れ).m4a */; };
+		D7D9BAD11AF35B30003C3AD9 /* さすがですね(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9491AF35B2F003C3AD9 /* さすがですね(悲しみ).m4a */; };
+		D7D9BAD21AF35B30003C3AD9 /* さすがですね(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B94A1AF35B2F003C3AD9 /* さすがですね(驚き).m4a */; };
+		D7D9BAD31AF35B30003C3AD9 /* すごいですね(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B94B1AF35B2F003C3AD9 /* すごいですね(嫌悪).m4a */; };
+		D7D9BAD41AF35B30003C3AD9 /* すごいですね(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B94C1AF35B2F003C3AD9 /* すごいですね(幸福感).m4a */; };
+		D7D9BAD51AF35B30003C3AD9 /* すごいですね(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B94D1AF35B2F003C3AD9 /* すごいですね(怒り).m4a */; };
+		D7D9BAD61AF35B30003C3AD9 /* すごいですね(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B94E1AF35B2F003C3AD9 /* すごいですね(恐れ).m4a */; };
+		D7D9BAD71AF35B30003C3AD9 /* すごいですね(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B94F1AF35B2F003C3AD9 /* すごいですね(悲しみ).m4a */; };
+		D7D9BAD81AF35B30003C3AD9 /* すごいですね(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9501AF35B2F003C3AD9 /* すごいですね(驚き).m4a */; };
+		D7D9BAD91AF35B30003C3AD9 /* すみません(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9511AF35B2F003C3AD9 /* すみません(嫌悪).m4a */; };
+		D7D9BADA1AF35B30003C3AD9 /* すみません(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9521AF35B2F003C3AD9 /* すみません(幸福感).m4a */; };
+		D7D9BADB1AF35B30003C3AD9 /* すみません(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9531AF35B2F003C3AD9 /* すみません(怒り).m4a */; };
+		D7D9BADC1AF35B30003C3AD9 /* すみません(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9541AF35B2F003C3AD9 /* すみません(恐れ).m4a */; };
+		D7D9BADD1AF35B30003C3AD9 /* すみません(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9551AF35B2F003C3AD9 /* すみません(悲しみ).m4a */; };
+		D7D9BADE1AF35B30003C3AD9 /* すみません(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9561AF35B2F003C3AD9 /* すみません(驚き).m4a */; };
+		D7D9BADF1AF35B30003C3AD9 /* ぜひおねがいします(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9571AF35B2F003C3AD9 /* ぜひおねがいします(嫌悪).m4a */; };
+		D7D9BAE01AF35B30003C3AD9 /* ぜひおねがいします(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9581AF35B2F003C3AD9 /* ぜひおねがいします(幸福感).m4a */; };
+		D7D9BAE11AF35B30003C3AD9 /* ぜひおねがいします(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9591AF35B2F003C3AD9 /* ぜひおねがいします(怒り).m4a */; };
+		D7D9BAE21AF35B30003C3AD9 /* ぜひおねがいします(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B95A1AF35B2F003C3AD9 /* ぜひおねがいします(恐れ).m4a */; };
+		D7D9BAE31AF35B30003C3AD9 /* ぜひおねがいします(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B95B1AF35B2F003C3AD9 /* ぜひおねがいします(悲しみ).m4a */; };
+		D7D9BAE41AF35B30003C3AD9 /* ぜひおねがいします(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B95C1AF35B2F003C3AD9 /* ぜひおねがいします(驚き).m4a */; };
+		D7D9BAE51AF35B30003C3AD9 /* はい(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B95D1AF35B2F003C3AD9 /* はい(嫌悪).m4a */; };
+		D7D9BAE61AF35B30003C3AD9 /* はい(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B95E1AF35B2F003C3AD9 /* はい(幸福感).m4a */; };
+		D7D9BAE71AF35B30003C3AD9 /* はい(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B95F1AF35B2F003C3AD9 /* はい(怒り).m4a */; };
+		D7D9BAE81AF35B30003C3AD9 /* はい(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9601AF35B2F003C3AD9 /* はい(恐れ).m4a */; };
+		D7D9BAE91AF35B30003C3AD9 /* はい(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9611AF35B2F003C3AD9 /* はい(悲しみ).m4a */; };
+		D7D9BAEA1AF35B30003C3AD9 /* はい(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9621AF35B2F003C3AD9 /* はい(驚き).m4a */; };
+		D7D9BAEB1AF35B30003C3AD9 /* ひどいですね(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9631AF35B2F003C3AD9 /* ひどいですね(嫌悪).m4a */; };
+		D7D9BAEC1AF35B30003C3AD9 /* ひどいですね(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9641AF35B2F003C3AD9 /* ひどいですね(幸福感).m4a */; };
+		D7D9BAED1AF35B30003C3AD9 /* ひどいですね(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9651AF35B2F003C3AD9 /* ひどいですね(怒り).m4a */; };
+		D7D9BAEE1AF35B30003C3AD9 /* ひどいですね(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9661AF35B2F003C3AD9 /* ひどいですね(恐れ).m4a */; };
+		D7D9BAEF1AF35B30003C3AD9 /* ひどいですね(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9671AF35B2F003C3AD9 /* ひどいですね(悲しみ).m4a */; };
+		D7D9BAF01AF35B30003C3AD9 /* ひどいですね(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9681AF35B2F003C3AD9 /* ひどいですね(驚き).m4a */; };
+		D7D9BAF11AF35B30003C3AD9 /* 大丈夫？(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9691AF35B2F003C3AD9 /* 大丈夫？(嫌悪).m4a */; };
+		D7D9BAF21AF35B30003C3AD9 /* 大丈夫？(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B96A1AF35B2F003C3AD9 /* 大丈夫？(幸福感).m4a */; };
+		D7D9BAF31AF35B30003C3AD9 /* 大丈夫？(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B96B1AF35B2F003C3AD9 /* 大丈夫？(怒り).m4a */; };
+		D7D9BAF41AF35B30003C3AD9 /* 大丈夫？(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B96C1AF35B2F003C3AD9 /* 大丈夫？(恐れ).m4a */; };
+		D7D9BAF51AF35B30003C3AD9 /* 大丈夫？(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B96D1AF35B2F003C3AD9 /* 大丈夫？(悲しみ).m4a */; };
+		D7D9BAF61AF35B30003C3AD9 /* 大丈夫？(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B96E1AF35B2F003C3AD9 /* 大丈夫？(驚き).m4a */; };
+		D7D9BAF71AF35B30003C3AD9 /* 用事があるので失礼します(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B96F1AF35B2F003C3AD9 /* 用事があるので失礼します(嫌悪).m4a */; };
+		D7D9BAF81AF35B30003C3AD9 /* 用事があるので失礼します(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9701AF35B2F003C3AD9 /* 用事があるので失礼します(幸福感).m4a */; };
+		D7D9BAF91AF35B30003C3AD9 /* 用事があるので失礼します(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9711AF35B2F003C3AD9 /* 用事があるので失礼します(怒り).m4a */; };
+		D7D9BAFA1AF35B30003C3AD9 /* 用事があるので失礼します(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9721AF35B2F003C3AD9 /* 用事があるので失礼します(恐れ).m4a */; };
+		D7D9BAFB1AF35B30003C3AD9 /* 用事があるので失礼します(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9731AF35B2F003C3AD9 /* 用事があるので失礼します(悲しみ).m4a */; };
+		D7D9BAFC1AF35B30003C3AD9 /* 用事があるので失礼します(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9741AF35B2F003C3AD9 /* 用事があるので失礼します(驚き).m4a */; };
+		D7D9BAFD1AF35B30003C3AD9 /* 知りませんでした(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9751AF35B2F003C3AD9 /* 知りませんでした(嫌悪).m4a */; };
+		D7D9BAFE1AF35B30003C3AD9 /* 知りませんでした(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9761AF35B2F003C3AD9 /* 知りませんでした(幸福感).m4a */; };
+		D7D9BAFF1AF35B30003C3AD9 /* 知りませんでした(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9771AF35B2F003C3AD9 /* 知りませんでした(怒り).m4a */; };
+		D7D9BB001AF35B30003C3AD9 /* 知りませんでした(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9781AF35B2F003C3AD9 /* 知りませんでした(恐れ).m4a */; };
+		D7D9BB011AF35B30003C3AD9 /* 知りませんでした(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9791AF35B2F003C3AD9 /* 知りませんでした(悲しみ).m4a */; };
+		D7D9BB021AF35B30003C3AD9 /* 知りませんでした(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B97A1AF35B2F003C3AD9 /* 知りませんでした(驚き).m4a */; };
+		D7D9BB031AF35B30003C3AD9 /* 結構です(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B97B1AF35B2F003C3AD9 /* 結構です(嫌悪).m4a */; };
+		D7D9BB041AF35B30003C3AD9 /* 結構です(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B97C1AF35B2F003C3AD9 /* 結構です(幸福感).m4a */; };
+		D7D9BB051AF35B30003C3AD9 /* 結構です(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B97D1AF35B2F003C3AD9 /* 結構です(怒り).m4a */; };
+		D7D9BB061AF35B30003C3AD9 /* 結構です(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B97E1AF35B2F003C3AD9 /* 結構です(恐れ).m4a */; };
+		D7D9BB071AF35B30003C3AD9 /* 結構です(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B97F1AF35B2F003C3AD9 /* 結構です(悲しみ).m4a */; };
+		D7D9BB081AF35B30003C3AD9 /* 結構です(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9801AF35B2F003C3AD9 /* 結構です(驚き).m4a */; };
+		D7D9BB091AF35B30003C3AD9 /* ありがとうございます(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9821AF35B2F003C3AD9 /* ありがとうございます(嫌悪).m4a */; };
+		D7D9BB0A1AF35B30003C3AD9 /* ありがとうございます(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9831AF35B2F003C3AD9 /* ありがとうございます(幸福感).m4a */; };
+		D7D9BB0B1AF35B30003C3AD9 /* ありがとうございます(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9841AF35B2F003C3AD9 /* ありがとうございます(怒り).m4a */; };
+		D7D9BB0C1AF35B30003C3AD9 /* ありがとうございます(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9851AF35B2F003C3AD9 /* ありがとうございます(恐れ).m4a */; };
+		D7D9BB0D1AF35B30003C3AD9 /* ありがとうございます(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9861AF35B2F003C3AD9 /* ありがとうございます(悲しみ).m4a */; };
+		D7D9BB0E1AF35B30003C3AD9 /* ありがとうございます(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9871AF35B2F003C3AD9 /* ありがとうございます(驚き).m4a */; };
+		D7D9BB0F1AF35B30003C3AD9 /* いいえ(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9881AF35B2F003C3AD9 /* いいえ(嫌悪).m4a */; };
+		D7D9BB101AF35B30003C3AD9 /* いいえ(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9891AF35B2F003C3AD9 /* いいえ(幸福感).m4a */; };
+		D7D9BB111AF35B30003C3AD9 /* いいえ(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B98A1AF35B2F003C3AD9 /* いいえ(怒り).m4a */; };
+		D7D9BB121AF35B30003C3AD9 /* いいえ(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B98B1AF35B2F003C3AD9 /* いいえ(恐れ).m4a */; };
+		D7D9BB131AF35B30003C3AD9 /* いいえ(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B98C1AF35B2F003C3AD9 /* いいえ(悲しみ).m4a */; };
+		D7D9BB141AF35B30003C3AD9 /* いいえ(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B98D1AF35B2F003C3AD9 /* いいえ(驚き).m4a */; };
+		D7D9BB151AF35B30003C3AD9 /* いえ、そんなことないですよ(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B98E1AF35B2F003C3AD9 /* いえ、そんなことないですよ(嫌悪).m4a */; };
+		D7D9BB161AF35B30003C3AD9 /* いえ、そんなことないですよ(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B98F1AF35B2F003C3AD9 /* いえ、そんなことないですよ(幸福感).m4a */; };
+		D7D9BB171AF35B30003C3AD9 /* いえ、そんなことないですよ(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9901AF35B2F003C3AD9 /* いえ、そんなことないですよ(怒り).m4a */; };
+		D7D9BB181AF35B30003C3AD9 /* いえ、そんなことないですよ(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9911AF35B2F003C3AD9 /* いえ、そんなことないですよ(恐れ).m4a */; };
+		D7D9BB191AF35B30003C3AD9 /* いえ、そんなことないですよ(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9921AF35B2F003C3AD9 /* いえ、そんなことないですよ(悲しみ).m4a */; };
+		D7D9BB1A1AF35B30003C3AD9 /* いえ、そんなことないですよ(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9931AF35B2F003C3AD9 /* いえ、そんなことないですよ(驚き).m4a */; };
+		D7D9BB1B1AF35B30003C3AD9 /* おっしゃる通りです(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9941AF35B2F003C3AD9 /* おっしゃる通りです(嫌悪).m4a */; };
+		D7D9BB1C1AF35B30003C3AD9 /* おっしゃる通りです(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9951AF35B2F003C3AD9 /* おっしゃる通りです(幸福感).m4a */; };
+		D7D9BB1D1AF35B30003C3AD9 /* おっしゃる通りです(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9961AF35B2F003C3AD9 /* おっしゃる通りです(怒り).m4a */; };
+		D7D9BB1E1AF35B30003C3AD9 /* おっしゃる通りです(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9971AF35B2F003C3AD9 /* おっしゃる通りです(恐れ).m4a */; };
+		D7D9BB1F1AF35B30003C3AD9 /* おっしゃる通りです(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9981AF35B2F003C3AD9 /* おっしゃる通りです(悲しみ).m4a */; };
+		D7D9BB201AF35B30003C3AD9 /* おっしゃる通りです(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9991AF35B2F003C3AD9 /* おっしゃる通りです(驚き).m4a */; };
+		D7D9BB211AF35B30003C3AD9 /* さすがですね(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B99A1AF35B2F003C3AD9 /* さすがですね(嫌悪).m4a */; };
+		D7D9BB221AF35B30003C3AD9 /* さすがですね(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B99B1AF35B2F003C3AD9 /* さすがですね(幸福感).m4a */; };
+		D7D9BB231AF35B30003C3AD9 /* さすがですね(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B99C1AF35B2F003C3AD9 /* さすがですね(怒り).m4a */; };
+		D7D9BB241AF35B30003C3AD9 /* さすがですね(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B99D1AF35B2F003C3AD9 /* さすがですね(恐れ).m4a */; };
+		D7D9BB251AF35B30003C3AD9 /* さすがですね(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B99E1AF35B2F003C3AD9 /* さすがですね(悲しみ).m4a */; };
+		D7D9BB261AF35B30003C3AD9 /* さすがですね(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B99F1AF35B2F003C3AD9 /* さすがですね(驚き).m4a */; };
+		D7D9BB271AF35B30003C3AD9 /* すごいですね(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9A01AF35B2F003C3AD9 /* すごいですね(嫌悪).m4a */; };
+		D7D9BB281AF35B30003C3AD9 /* すごいですね(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9A11AF35B2F003C3AD9 /* すごいですね(幸福感).m4a */; };
+		D7D9BB291AF35B30003C3AD9 /* すごいですね(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9A21AF35B2F003C3AD9 /* すごいですね(怒り).m4a */; };
+		D7D9BB2A1AF35B30003C3AD9 /* すごいですね(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9A31AF35B2F003C3AD9 /* すごいですね(恐れ).m4a */; };
+		D7D9BB2B1AF35B30003C3AD9 /* すごいですね(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9A41AF35B2F003C3AD9 /* すごいですね(悲しみ).m4a */; };
+		D7D9BB2C1AF35B30003C3AD9 /* すごいですね(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9A51AF35B2F003C3AD9 /* すごいですね(驚き).m4a */; };
+		D7D9BB2D1AF35B30003C3AD9 /* すみません(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9A61AF35B2F003C3AD9 /* すみません(嫌悪).m4a */; };
+		D7D9BB2E1AF35B30003C3AD9 /* すみません(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9A71AF35B2F003C3AD9 /* すみません(幸福感).m4a */; };
+		D7D9BB2F1AF35B30003C3AD9 /* すみません(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9A81AF35B2F003C3AD9 /* すみません(怒り).m4a */; };
+		D7D9BB301AF35B30003C3AD9 /* すみません(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9A91AF35B2F003C3AD9 /* すみません(恐れ).m4a */; };
+		D7D9BB311AF35B30003C3AD9 /* すみません(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9AA1AF35B2F003C3AD9 /* すみません(悲しみ).m4a */; };
+		D7D9BB321AF35B30003C3AD9 /* すみません(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9AB1AF35B2F003C3AD9 /* すみません(驚き).m4a */; };
+		D7D9BB331AF35B30003C3AD9 /* ぜひおねがいします(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9AC1AF35B2F003C3AD9 /* ぜひおねがいします(嫌悪).m4a */; };
+		D7D9BB341AF35B30003C3AD9 /* ぜひおねがいします(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9AD1AF35B2F003C3AD9 /* ぜひおねがいします(幸福感).m4a */; };
+		D7D9BB351AF35B30003C3AD9 /* ぜひおねがいします(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9AE1AF35B2F003C3AD9 /* ぜひおねがいします(怒り).m4a */; };
+		D7D9BB361AF35B30003C3AD9 /* ぜひおねがいします(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9AF1AF35B2F003C3AD9 /* ぜひおねがいします(恐れ).m4a */; };
+		D7D9BB371AF35B30003C3AD9 /* ぜひおねがいします(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9B01AF35B2F003C3AD9 /* ぜひおねがいします(悲しみ).m4a */; };
+		D7D9BB381AF35B30003C3AD9 /* ぜひおねがいします(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9B11AF35B2F003C3AD9 /* ぜひおねがいします(驚き).m4a */; };
+		D7D9BB391AF35B30003C3AD9 /* はい(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9B21AF35B2F003C3AD9 /* はい(嫌悪).m4a */; };
+		D7D9BB3A1AF35B30003C3AD9 /* はい(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9B31AF35B2F003C3AD9 /* はい(幸福感).m4a */; };
+		D7D9BB3B1AF35B30003C3AD9 /* はい(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9B41AF35B2F003C3AD9 /* はい(怒り).m4a */; };
+		D7D9BB3C1AF35B30003C3AD9 /* はい(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9B51AF35B2F003C3AD9 /* はい(恐れ).m4a */; };
+		D7D9BB3D1AF35B30003C3AD9 /* はい(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9B61AF35B2F003C3AD9 /* はい(悲しみ).m4a */; };
+		D7D9BB3E1AF35B30003C3AD9 /* はい(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9B71AF35B2F003C3AD9 /* はい(驚き).m4a */; };
+		D7D9BB3F1AF35B30003C3AD9 /* ひどいですね(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9B81AF35B2F003C3AD9 /* ひどいですね(嫌悪).m4a */; };
+		D7D9BB401AF35B30003C3AD9 /* ひどいですね(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9B91AF35B2F003C3AD9 /* ひどいですね(幸福感).m4a */; };
+		D7D9BB411AF35B30003C3AD9 /* ひどいですね(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9BA1AF35B2F003C3AD9 /* ひどいですね(怒り).m4a */; };
+		D7D9BB421AF35B30003C3AD9 /* ひどいですね(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9BB1AF35B2F003C3AD9 /* ひどいですね(恐れ).m4a */; };
+		D7D9BB431AF35B30003C3AD9 /* ひどいですね(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9BC1AF35B2F003C3AD9 /* ひどいですね(悲しみ).m4a */; };
+		D7D9BB441AF35B30003C3AD9 /* ひどいですね(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9BD1AF35B2F003C3AD9 /* ひどいですね(驚き).m4a */; };
+		D7D9BB451AF35B30003C3AD9 /* 大丈夫？(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9BE1AF35B2F003C3AD9 /* 大丈夫？(嫌悪).m4a */; };
+		D7D9BB461AF35B30003C3AD9 /* 大丈夫？(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9BF1AF35B2F003C3AD9 /* 大丈夫？(幸福感).m4a */; };
+		D7D9BB471AF35B30003C3AD9 /* 大丈夫？(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9C01AF35B2F003C3AD9 /* 大丈夫？(怒り).m4a */; };
+		D7D9BB481AF35B30003C3AD9 /* 大丈夫？(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9C11AF35B2F003C3AD9 /* 大丈夫？(恐れ).m4a */; };
+		D7D9BB491AF35B30003C3AD9 /* 大丈夫？(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9C21AF35B2F003C3AD9 /* 大丈夫？(悲しみ).m4a */; };
+		D7D9BB4A1AF35B30003C3AD9 /* 大丈夫？(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9C31AF35B2F003C3AD9 /* 大丈夫？(驚き).m4a */; };
+		D7D9BB4B1AF35B30003C3AD9 /* 用事があるので失礼します(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9C41AF35B2F003C3AD9 /* 用事があるので失礼します(嫌悪).m4a */; };
+		D7D9BB4C1AF35B30003C3AD9 /* 用事があるので失礼します(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9C51AF35B2F003C3AD9 /* 用事があるので失礼します(幸福感).m4a */; };
+		D7D9BB4D1AF35B30003C3AD9 /* 用事があるので失礼します(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9C61AF35B2F003C3AD9 /* 用事があるので失礼します(怒り).m4a */; };
+		D7D9BB4E1AF35B30003C3AD9 /* 用事があるので失礼します(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9C71AF35B2F003C3AD9 /* 用事があるので失礼します(恐れ).m4a */; };
+		D7D9BB4F1AF35B30003C3AD9 /* 用事があるので失礼します(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9C81AF35B2F003C3AD9 /* 用事があるので失礼します(悲しみ).m4a */; };
+		D7D9BB501AF35B30003C3AD9 /* 用事があるので失礼します(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9C91AF35B2F003C3AD9 /* 用事があるので失礼します(驚き).m4a */; };
+		D7D9BB511AF35B30003C3AD9 /* 知りませんでした(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9CA1AF35B2F003C3AD9 /* 知りませんでした(嫌悪).m4a */; };
+		D7D9BB521AF35B30003C3AD9 /* 知りませんでした(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9CB1AF35B2F003C3AD9 /* 知りませんでした(幸福感).m4a */; };
+		D7D9BB531AF35B30003C3AD9 /* 知りませんでした(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9CC1AF35B2F003C3AD9 /* 知りませんでした(怒り).m4a */; };
+		D7D9BB541AF35B30003C3AD9 /* 知りませんでした(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9CD1AF35B2F003C3AD9 /* 知りませんでした(恐れ).m4a */; };
+		D7D9BB551AF35B30003C3AD9 /* 知りませんでした(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9CE1AF35B2F003C3AD9 /* 知りませんでした(悲しみ).m4a */; };
+		D7D9BB561AF35B30003C3AD9 /* 知りませんでした(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9CF1AF35B2F003C3AD9 /* 知りませんでした(驚き).m4a */; };
+		D7D9BB571AF35B30003C3AD9 /* 結構です(嫌悪).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9D01AF35B2F003C3AD9 /* 結構です(嫌悪).m4a */; };
+		D7D9BB581AF35B30003C3AD9 /* 結構です(幸福感).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9D11AF35B2F003C3AD9 /* 結構です(幸福感).m4a */; };
+		D7D9BB591AF35B30003C3AD9 /* 結構です(怒り).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9D21AF35B2F003C3AD9 /* 結構です(怒り).m4a */; };
+		D7D9BB5A1AF35B30003C3AD9 /* 結構です(恐れ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9D31AF35B2F003C3AD9 /* 結構です(恐れ).m4a */; };
+		D7D9BB5B1AF35B30003C3AD9 /* 結構です(悲しみ).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9D41AF35B2F003C3AD9 /* 結構です(悲しみ).m4a */; };
+		D7D9BB5C1AF35B30003C3AD9 /* 結構です(驚き).m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9D51AF35B2F003C3AD9 /* 結構です(驚き).m4a */; };
+		D7D9BB5D1AF35B30003C3AD9 /* voice.txt in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9D71AF35B2F003C3AD9 /* voice.txt */; };
+		D7D9BB5E1AF35B30003C3AD9 /* あと少しですね.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9D81AF35B2F003C3AD9 /* あと少しですね.m4a */; };
+		D7D9BB5F1AF35B30003C3AD9 /* ありがとうございます.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9D91AF35B2F003C3AD9 /* ありがとうございます.m4a */; };
+		D7D9BB601AF35B30003C3AD9 /* いえ、そんなことないですよ.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9DA1AF35B2F003C3AD9 /* いえ、そんなことないですよ.m4a */; };
+		D7D9BB611AF35B30003C3AD9 /* いやぁ.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9DB1AF35B2F003C3AD9 /* いやぁ.m4a */; };
+		D7D9BB621AF35B30003C3AD9 /* いろいろありますよね.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9DC1AF35B2F003C3AD9 /* いろいろありますよね.m4a */; };
+		D7D9BB631AF35B30003C3AD9 /* うらやましいです.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9DD1AF35B2F003C3AD9 /* うらやましいです.m4a */; };
+		D7D9BB641AF35B30003C3AD9 /* おっしゃる通りです.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9DE1AF35B2F003C3AD9 /* おっしゃる通りです.m4a */; };
+		D7D9BB651AF35B30003C3AD9 /* お休みになってください.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9DF1AF35B2F003C3AD9 /* お休みになってください.m4a */; };
+		D7D9BB661AF35B30003C3AD9 /* お知り合いですか？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9E01AF35B2F003C3AD9 /* お知り合いですか？.m4a */; };
+		D7D9BB671AF35B30003C3AD9 /* きっかけは？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9E11AF35B2F003C3AD9 /* きっかけは？.m4a */; };
+		D7D9BB681AF35B30003C3AD9 /* きっとそうします.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9E21AF35B2F003C3AD9 /* きっとそうします.m4a */; };
+		D7D9BB691AF35B30003C3AD9 /* ここまで来たらとことんやりましょう.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9E31AF35B2F003C3AD9 /* ここまで来たらとことんやりましょう.m4a */; };
+		D7D9BB6A1AF35B30003C3AD9 /* ご存知ですか？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9E41AF35B2F003C3AD9 /* ご存知ですか？.m4a */; };
+		D7D9BB6B1AF35B30003C3AD9 /* さすがですね.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9E51AF35B2F003C3AD9 /* さすがですね.m4a */; };
+		D7D9BB6C1AF35B30003C3AD9 /* すごいですね.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9E61AF35B2F003C3AD9 /* すごいですね.m4a */; };
+		D7D9BB6D1AF35B30003C3AD9 /* すごく面白いです.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9E71AF35B2F003C3AD9 /* すごく面白いです.m4a */; };
+		D7D9BB6E1AF35B30003C3AD9 /* すみません.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9E81AF35B2F003C3AD9 /* すみません.m4a */; };
+		D7D9BB6F1AF35B30003C3AD9 /* ぜひおねがいします.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9E91AF35B2F003C3AD9 /* ぜひおねがいします.m4a */; };
+		D7D9BB701AF35B30003C3AD9 /* そうすればいいのか.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9EA1AF35B2F003C3AD9 /* そうすればいいのか.m4a */; };
+		D7D9BB711AF35B30003C3AD9 /* ちょっと困るんです.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9EB1AF35B2F003C3AD9 /* ちょっと困るんです.m4a */; };
+		D7D9BB721AF35B30003C3AD9 /* できますか？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9EC1AF35B2F003C3AD9 /* できますか？.m4a */; };
+		D7D9BB731AF35B30003C3AD9 /* とても敵いません.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9ED1AF35B2F003C3AD9 /* とても敵いません.m4a */; };
+		D7D9BB741AF35B30003C3AD9 /* とても真似できません.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9EE1AF35B2F003C3AD9 /* とても真似できません.m4a */; };
+		D7D9BB751AF35B30003C3AD9 /* どうでしたか？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9EF1AF35B2F003C3AD9 /* どうでしたか？.m4a */; };
+		D7D9BB761AF35B30003C3AD9 /* どこかに行かれましたか？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9F01AF35B2F003C3AD9 /* どこかに行かれましたか？.m4a */; };
+		D7D9BB771AF35B30003C3AD9 /* どこがポイントになりますか？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9F11AF35B2F003C3AD9 /* どこがポイントになりますか？.m4a */; };
+		D7D9BB781AF35B30003C3AD9 /* どこまで話しましたか？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9F21AF35B2F003C3AD9 /* どこまで話しましたか？.m4a */; };
+		D7D9BB791AF35B30003C3AD9 /* どちらを選びますか？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9F31AF35B2F003C3AD9 /* どちらを選びますか？.m4a */; };
+		D7D9BB7A1AF35B30003C3AD9 /* なぜそうなるのですか？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9F41AF35B2F003C3AD9 /* なぜそうなるのですか？.m4a */; };
+		D7D9BB7B1AF35B30003C3AD9 /* ひどいですね.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9F51AF35B2F003C3AD9 /* ひどいですね.m4a */; };
+		D7D9BB7C1AF35B30003C3AD9 /* まだ考え中です.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9F61AF35B2F003C3AD9 /* まだ考え中です.m4a */; };
+		D7D9BB7D1AF35B30003C3AD9 /* また今度聞かせてください.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9F71AF35B2F003C3AD9 /* また今度聞かせてください.m4a */; };
+		D7D9BB7E1AF35B30003C3AD9 /* もしよろしければ.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9F81AF35B2F003C3AD9 /* もしよろしければ.m4a */; };
+		D7D9BB7F1AF35B30003C3AD9 /* よくがんばっていますね.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9F91AF35B2F003C3AD9 /* よくがんばっていますね.m4a */; };
+		D7D9BB801AF35B30003C3AD9 /* よく気付きましたね.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9FA1AF35B2F003C3AD9 /* よく気付きましたね.m4a */; };
+		D7D9BB811AF35B30003C3AD9 /* コツはありますか？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9FB1AF35B2F003C3AD9 /* コツはありますか？.m4a */; };
+		D7D9BB821AF35B30003C3AD9 /* ポイントを整理しましょう.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9FC1AF35B2F003C3AD9 /* ポイントを整理しましょう.m4a */; };
+		D7D9BB831AF35B30003C3AD9 /* 一言で言うと？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9FD1AF35B2F003C3AD9 /* 一言で言うと？.m4a */; };
+		D7D9BB841AF35B30003C3AD9 /* 人見知りなんです.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9FE1AF35B2F003C3AD9 /* 人見知りなんです.m4a */; };
+		D7D9BB851AF35B30003C3AD9 /* 他にもありますか？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9B9FF1AF35B2F003C3AD9 /* 他にもありますか？.m4a */; };
+		D7D9BB861AF35B30003C3AD9 /* 何がいいと思いますか？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9BA001AF35B2F003C3AD9 /* 何がいいと思いますか？.m4a */; };
+		D7D9BB871AF35B30003C3AD9 /* 何という種類ですか？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9BA011AF35B2F003C3AD9 /* 何という種類ですか？.m4a */; };
+		D7D9BB881AF35B30003C3AD9 /* 何人いらっしゃいますか？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9BA021AF35B2F003C3AD9 /* 何人いらっしゃいますか？.m4a */; };
+		D7D9BB891AF35B30003C3AD9 /* 何時まででしたっけ？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9BA031AF35B2F003C3AD9 /* 何時まででしたっけ？.m4a */; };
+		D7D9BB8A1AF35B30003C3AD9 /* 便利ですね.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9BA041AF35B2F003C3AD9 /* 便利ですね.m4a */; };
+		D7D9BB8B1AF35B30003C3AD9 /* 初めてですか？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9BA051AF35B2F003C3AD9 /* 初めてですか？.m4a */; };
+		D7D9BB8C1AF35B30003C3AD9 /* 前から聞きたかったのですが.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9BA061AF35B2F003C3AD9 /* 前から聞きたかったのですが.m4a */; };
+		D7D9BB8D1AF35B30003C3AD9 /* 参りました.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9BA071AF35B2F003C3AD9 /* 参りました.m4a */; };
+		D7D9BB8E1AF35B30003C3AD9 /* 大丈夫？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9BA081AF35B2F003C3AD9 /* 大丈夫？.m4a */; };
+		D7D9BB8F1AF35B30003C3AD9 /* 大変でしたね.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9BA091AF35B2F003C3AD9 /* 大変でしたね.m4a */; };
+		D7D9BB901AF35B30003C3AD9 /* 嫌ならいいんだけど.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9BA0A1AF35B30003C3AD9 /* 嫌ならいいんだけど.m4a */; };
+		D7D9BB911AF35B30003C3AD9 /* 得意ですか？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9BA0B1AF35B30003C3AD9 /* 得意ですか？.m4a */; };
+		D7D9BB921AF35B30003C3AD9 /* 意外です.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9BA0C1AF35B30003C3AD9 /* 意外です.m4a */; };
+		D7D9BB931AF35B30003C3AD9 /* 放っておいてよ.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9BA0D1AF35B30003C3AD9 /* 放っておいてよ.m4a */; };
+		D7D9BB941AF35B30003C3AD9 /* 教えてもらえますか？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9BA0E1AF35B30003C3AD9 /* 教えてもらえますか？.m4a */; };
+		D7D9BB951AF35B30003C3AD9 /* 最高でどれくらいですか？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9BA0F1AF35B30003C3AD9 /* 最高でどれくらいですか？.m4a */; };
+		D7D9BB961AF35B30003C3AD9 /* 毎日続けていることはありますか？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9BA101AF35B30003C3AD9 /* 毎日続けていることはありますか？.m4a */; };
+		D7D9BB971AF35B30003C3AD9 /* 用事があるので失礼します.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9BA111AF35B30003C3AD9 /* 用事があるので失礼します.m4a */; };
+		D7D9BB981AF35B30003C3AD9 /* 知りませんでした.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9BA121AF35B30003C3AD9 /* 知りませんでした.m4a */; };
+		D7D9BB991AF35B30003C3AD9 /* 私には思いつきません.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9BA131AF35B30003C3AD9 /* 私には思いつきません.m4a */; };
+		D7D9BB9A1AF35B30003C3AD9 /* 素敵ですね.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9BA141AF35B30003C3AD9 /* 素敵ですね.m4a */; };
+		D7D9BB9B1AF35B30003C3AD9 /* 結構です.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9BA151AF35B30003C3AD9 /* 結構です.m4a */; };
+		D7D9BB9C1AF35B30003C3AD9 /* 考えてみましょう.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9BA161AF35B30003C3AD9 /* 考えてみましょう.m4a */; };
+		D7D9BB9D1AF35B30003C3AD9 /* 興味はありますか？.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9BA171AF35B30003C3AD9 /* 興味はありますか？.m4a */; };
+		D7D9BB9E1AF35B30003C3AD9 /* 言われてみれば.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D7D9BA181AF35B30003C3AD9 /* 言われてみれば.m4a */; };
+		D7D9BBA01AF37154003C3AD9 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7D9BB9F1AF37154003C3AD9 /* MediaPlayer.framework */; };
+		D7D9BBA41AF378C1003C3AD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D9BBA31AF378C1003C3AD9 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +422,406 @@
 		D71326201AF347BF003A5932 /* CommunicationSupportTool-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CommunicationSupportTool-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D71326241AF347BF003A5932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D71326251AF347BF003A5932 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D71326271AF347BF003A5932 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D71326271AF347BF003A5932 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		D713262A1AF347BF003A5932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D713262C1AF347BF003A5932 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D713262F1AF347BF003A5932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D71326351AF347BF003A5932 /* CommunicationSupportTool-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CommunicationSupportTool-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D713263A1AF347BF003A5932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D713263B1AF347BF003A5932 /* CommunicationSupportTool_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationSupportTool_iOSTests.swift; sourceTree = "<group>"; };
+		D7D9B8861AF356F3003C3AD9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D7D9B88C1AF35B2F003C3AD9 /* kameone12.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = kameone12.html; sourceTree = "<group>"; };
+		D7D9B88E1AF35B2F003C3AD9 /* Uma.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Uma.jpg; sourceTree = "<group>"; };
+		D7D9B88F1AF35B2F003C3AD9 /* あー調べてました.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "あー調べてました.mp3"; sourceTree = "<group>"; };
+		D7D9B8901AF35B2F003C3AD9 /* いえぇぇえ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "いえぇぇえ.mp3"; sourceTree = "<group>"; };
+		D7D9B8911AF35B2F003C3AD9 /* いやぁ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "いやぁ.mp3"; sourceTree = "<group>"; };
+		D7D9B8921AF35B2F003C3AD9 /* いやぁー.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "いやぁー.mp3"; sourceTree = "<group>"; };
+		D7D9B8931AF35B2F003C3AD9 /* いやいや.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "いやいや.mp3"; sourceTree = "<group>"; };
+		D7D9B8941AF35B2F003C3AD9 /* いやいやいやいや.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "いやいやいやいや.mp3"; sourceTree = "<group>"; };
+		D7D9B8951AF35B2F003C3AD9 /* うまべ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "うまべ.mp3"; sourceTree = "<group>"; };
+		D7D9B8961AF35B2F003C3AD9 /* え.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "え.mp3"; sourceTree = "<group>"; };
+		D7D9B8971AF35B2F003C3AD9 /* えへへ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "えへへ.mp3"; sourceTree = "<group>"; };
+		D7D9B8981AF35B2F003C3AD9 /* えー.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "えー.mp3"; sourceTree = "<group>"; };
+		D7D9B8991AF35B2F003C3AD9 /* えー！.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "えー！.mp3"; sourceTree = "<group>"; };
+		D7D9B89A1AF35B2F003C3AD9 /* えー？.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "えー？.mp3"; sourceTree = "<group>"; };
+		D7D9B89B1AF35B2F003C3AD9 /* え？（低音）.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "え？（低音）.mp3"; sourceTree = "<group>"; };
+		D7D9B89C1AF35B2F003C3AD9 /* おしまい？.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "おしまい？.mp3"; sourceTree = "<group>"; };
+		D7D9B89D1AF35B2F003C3AD9 /* それだめじゃないです.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "それだめじゃないです.mp3"; sourceTree = "<group>"; };
+		D7D9B89E1AF35B2F003C3AD9 /* それ思った.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "それ思った.mp3"; sourceTree = "<group>"; };
+		D7D9B89F1AF35B2F003C3AD9 /* な？何を言ってる？.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "な？何を言ってる？.mp3"; sourceTree = "<group>"; };
+		D7D9B8A01AF35B2F003C3AD9 /* はい！.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "はい！.mp3"; sourceTree = "<group>"; };
+		D7D9B8A11AF35B2F003C3AD9 /* ひゃぁー！.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ひゃぁー！.mp3"; sourceTree = "<group>"; };
+		D7D9B8A21AF35B2F003C3AD9 /* ふええ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ふええ.mp3"; sourceTree = "<group>"; };
+		D7D9B8A31AF35B2F003C3AD9 /* ものすごく困る.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ものすごく困る.mp3"; sourceTree = "<group>"; };
+		D7D9B8A41AF35B2F003C3AD9 /* わけわからん.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "わけわからん.mp3"; sourceTree = "<group>"; };
+		D7D9B8A51AF35B2F003C3AD9 /* 何ですか.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "何ですか.mp3"; sourceTree = "<group>"; };
+		D7D9B8A61AF35B2F003C3AD9 /* 何のことです.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "何のことです.mp3"; sourceTree = "<group>"; };
+		D7D9B8A71AF35B2F003C3AD9 /* 何の再履修です.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "何の再履修です.mp3"; sourceTree = "<group>"; };
+		D7D9B8A81AF35B2F003C3AD9 /* 最終的に焼き鳥になるんですか？.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "最終的に焼き鳥になるんですか？.mp3"; sourceTree = "<group>"; };
+		D7D9B8A91AF35B2F003C3AD9 /* 無茶ぶりは.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "無茶ぶりは.mp3"; sourceTree = "<group>"; };
+		D7D9B8AA1AF35B2F003C3AD9 /* 焼き鳥.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "焼き鳥.mp3"; sourceTree = "<group>"; };
+		D7D9B8AB1AF35B2F003C3AD9 /* 私も頑張りますぅ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "私も頑張りますぅ.mp3"; sourceTree = "<group>"; };
+		D7D9B8AC1AF35B2F003C3AD9 /* 言えませんよ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "言えませんよ.mp3"; sourceTree = "<group>"; };
+		D7D9B8AD1AF35B2F003C3AD9 /* 頑張って下さい.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "頑張って下さい.mp3"; sourceTree = "<group>"; };
+		D7D9B8AE1AF35B2F003C3AD9 /* 食べられるんですか？.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "食べられるんですか？.mp3"; sourceTree = "<group>"; };
+		D7D9B8AF1AF35B2F003C3AD9 /* うまべ感情.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "うまべ感情.html"; sourceTree = "<group>"; };
+		D7D9B8B01AF35B2F003C3AD9 /* 音声データ.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "音声データ.html"; sourceTree = "<group>"; };
+		D7D9B8B21AF35B2F003C3AD9 /* ありがとうございます(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ありがとうございます(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B8B31AF35B2F003C3AD9 /* ありがとうございます(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ありがとうございます(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B8B41AF35B2F003C3AD9 /* ありがとうございます(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ありがとうございます(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B8B51AF35B2F003C3AD9 /* ありがとうございます(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ありがとうございます(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B8B61AF35B2F003C3AD9 /* ありがとうございます(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ありがとうございます(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B8B71AF35B2F003C3AD9 /* ありがとうございます(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ありがとうございます(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B8B81AF35B2F003C3AD9 /* いいえ(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いいえ(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B8B91AF35B2F003C3AD9 /* いいえ(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いいえ(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B8BA1AF35B2F003C3AD9 /* いいえ(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いいえ(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B8BB1AF35B2F003C3AD9 /* いいえ(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いいえ(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B8BC1AF35B2F003C3AD9 /* いいえ(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いいえ(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B8BD1AF35B2F003C3AD9 /* いいえ(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いいえ(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B8BE1AF35B2F003C3AD9 /* いえ、そんなことないですよ(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いえ、そんなことないですよ(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B8BF1AF35B2F003C3AD9 /* いえ、そんなことないですよ(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いえ、そんなことないですよ(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B8C01AF35B2F003C3AD9 /* いえ、そんなことないですよ(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いえ、そんなことないですよ(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B8C11AF35B2F003C3AD9 /* いえ、そんなことないですよ(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いえ、そんなことないですよ(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B8C21AF35B2F003C3AD9 /* いえ、そんなことないですよ(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いえ、そんなことないですよ(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B8C31AF35B2F003C3AD9 /* いえ、そんなことないですよ(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いえ、そんなことないですよ(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B8C41AF35B2F003C3AD9 /* おっしゃる通りです(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "おっしゃる通りです(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B8C51AF35B2F003C3AD9 /* おっしゃる通りです(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "おっしゃる通りです(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B8C61AF35B2F003C3AD9 /* おっしゃる通りです(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "おっしゃる通りです(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B8C71AF35B2F003C3AD9 /* おっしゃる通りです(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "おっしゃる通りです(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B8C81AF35B2F003C3AD9 /* おっしゃる通りです(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "おっしゃる通りです(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B8C91AF35B2F003C3AD9 /* おっしゃる通りです(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "おっしゃる通りです(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B8CA1AF35B2F003C3AD9 /* さすがですね(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "さすがですね(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B8CB1AF35B2F003C3AD9 /* さすがですね(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "さすがですね(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B8CC1AF35B2F003C3AD9 /* さすがですね(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "さすがですね(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B8CD1AF35B2F003C3AD9 /* さすがですね(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "さすがですね(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B8CE1AF35B2F003C3AD9 /* さすがですね(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "さすがですね(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B8CF1AF35B2F003C3AD9 /* さすがですね(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "さすがですね(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B8D01AF35B2F003C3AD9 /* すごいですね(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すごいですね(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B8D11AF35B2F003C3AD9 /* すごいですね(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すごいですね(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B8D21AF35B2F003C3AD9 /* すごいですね(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すごいですね(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B8D31AF35B2F003C3AD9 /* すごいですね(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すごいですね(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B8D41AF35B2F003C3AD9 /* すごいですね(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すごいですね(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B8D51AF35B2F003C3AD9 /* すごいですね(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すごいですね(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B8D61AF35B2F003C3AD9 /* すみません(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すみません(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B8D71AF35B2F003C3AD9 /* すみません(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すみません(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B8D81AF35B2F003C3AD9 /* すみません(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すみません(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B8D91AF35B2F003C3AD9 /* すみません(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すみません(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B8DA1AF35B2F003C3AD9 /* すみません(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すみません(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B8DB1AF35B2F003C3AD9 /* すみません(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すみません(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B8DC1AF35B2F003C3AD9 /* ぜひおねがいします(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ぜひおねがいします(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B8DD1AF35B2F003C3AD9 /* ぜひおねがいします(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ぜひおねがいします(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B8DE1AF35B2F003C3AD9 /* ぜひおねがいします(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ぜひおねがいします(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B8DF1AF35B2F003C3AD9 /* ぜひおねがいします(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ぜひおねがいします(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B8E01AF35B2F003C3AD9 /* ぜひおねがいします(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ぜひおねがいします(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B8E11AF35B2F003C3AD9 /* ぜひおねがいします(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ぜひおねがいします(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B8E21AF35B2F003C3AD9 /* はい(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "はい(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B8E31AF35B2F003C3AD9 /* はい(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "はい(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B8E41AF35B2F003C3AD9 /* はい(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "はい(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B8E51AF35B2F003C3AD9 /* はい(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "はい(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B8E61AF35B2F003C3AD9 /* はい(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "はい(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B8E71AF35B2F003C3AD9 /* はい(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "はい(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B8E81AF35B2F003C3AD9 /* ひどいですね(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ひどいですね(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B8E91AF35B2F003C3AD9 /* ひどいですね(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ひどいですね(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B8EA1AF35B2F003C3AD9 /* ひどいですね(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ひどいですね(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B8EB1AF35B2F003C3AD9 /* ひどいですね(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ひどいですね(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B8EC1AF35B2F003C3AD9 /* ひどいですね(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ひどいですね(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B8ED1AF35B2F003C3AD9 /* ひどいですね(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ひどいですね(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B8EE1AF35B2F003C3AD9 /* 大丈夫？(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "大丈夫？(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B8EF1AF35B2F003C3AD9 /* 大丈夫？(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "大丈夫？(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B8F01AF35B2F003C3AD9 /* 大丈夫？(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "大丈夫？(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B8F11AF35B2F003C3AD9 /* 大丈夫？(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "大丈夫？(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B8F21AF35B2F003C3AD9 /* 大丈夫？(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "大丈夫？(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B8F31AF35B2F003C3AD9 /* 大丈夫？(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "大丈夫？(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B8F41AF35B2F003C3AD9 /* 用事があるので失礼します(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "用事があるので失礼します(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B8F51AF35B2F003C3AD9 /* 用事があるので失礼します(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "用事があるので失礼します(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B8F61AF35B2F003C3AD9 /* 用事があるので失礼します(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "用事があるので失礼します(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B8F71AF35B2F003C3AD9 /* 用事があるので失礼します(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "用事があるので失礼します(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B8F81AF35B2F003C3AD9 /* 用事があるので失礼します(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "用事があるので失礼します(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B8F91AF35B2F003C3AD9 /* 用事があるので失礼します(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "用事があるので失礼します(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B8FA1AF35B2F003C3AD9 /* 知りませんでした(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "知りませんでした(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B8FB1AF35B2F003C3AD9 /* 知りませんでした(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "知りませんでした(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B8FC1AF35B2F003C3AD9 /* 知りませんでした(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "知りませんでした(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B8FD1AF35B2F003C3AD9 /* 知りませんでした(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "知りませんでした(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B8FE1AF35B2F003C3AD9 /* 知りませんでした(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "知りませんでした(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B8FF1AF35B2F003C3AD9 /* 知りませんでした(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "知りませんでした(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B9001AF35B2F003C3AD9 /* 結構です(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "結構です(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B9011AF35B2F003C3AD9 /* 結構です(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "結構です(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B9021AF35B2F003C3AD9 /* 結構です(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "結構です(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B9031AF35B2F003C3AD9 /* 結構です(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "結構です(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B9041AF35B2F003C3AD9 /* 結構です(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "結構です(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B9051AF35B2F003C3AD9 /* 結構です(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "結構です(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B9071AF35B2F003C3AD9 /* kameone12.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = kameone12.html; sourceTree = "<group>"; };
+		D7D9B9091AF35B2F003C3AD9 /* Uma.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Uma.jpg; sourceTree = "<group>"; };
+		D7D9B90A1AF35B2F003C3AD9 /* あー調べてました.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "あー調べてました.mp3"; sourceTree = "<group>"; };
+		D7D9B90B1AF35B2F003C3AD9 /* いえぇぇえ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "いえぇぇえ.mp3"; sourceTree = "<group>"; };
+		D7D9B90C1AF35B2F003C3AD9 /* いやぁ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "いやぁ.mp3"; sourceTree = "<group>"; };
+		D7D9B90D1AF35B2F003C3AD9 /* いやぁー.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "いやぁー.mp3"; sourceTree = "<group>"; };
+		D7D9B90E1AF35B2F003C3AD9 /* いやいや.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "いやいや.mp3"; sourceTree = "<group>"; };
+		D7D9B90F1AF35B2F003C3AD9 /* いやいやいやいや.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "いやいやいやいや.mp3"; sourceTree = "<group>"; };
+		D7D9B9101AF35B2F003C3AD9 /* うまべ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "うまべ.mp3"; sourceTree = "<group>"; };
+		D7D9B9111AF35B2F003C3AD9 /* え.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "え.mp3"; sourceTree = "<group>"; };
+		D7D9B9121AF35B2F003C3AD9 /* えへへ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "えへへ.mp3"; sourceTree = "<group>"; };
+		D7D9B9131AF35B2F003C3AD9 /* えー.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "えー.mp3"; sourceTree = "<group>"; };
+		D7D9B9141AF35B2F003C3AD9 /* えー！.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "えー！.mp3"; sourceTree = "<group>"; };
+		D7D9B9151AF35B2F003C3AD9 /* えー？.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "えー？.mp3"; sourceTree = "<group>"; };
+		D7D9B9161AF35B2F003C3AD9 /* え？（低音）.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "え？（低音）.mp3"; sourceTree = "<group>"; };
+		D7D9B9171AF35B2F003C3AD9 /* おしまい？.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "おしまい？.mp3"; sourceTree = "<group>"; };
+		D7D9B9181AF35B2F003C3AD9 /* それだめじゃないです.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "それだめじゃないです.mp3"; sourceTree = "<group>"; };
+		D7D9B9191AF35B2F003C3AD9 /* それ思った.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "それ思った.mp3"; sourceTree = "<group>"; };
+		D7D9B91A1AF35B2F003C3AD9 /* な？何を言ってる？.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "な？何を言ってる？.mp3"; sourceTree = "<group>"; };
+		D7D9B91B1AF35B2F003C3AD9 /* はい！.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "はい！.mp3"; sourceTree = "<group>"; };
+		D7D9B91C1AF35B2F003C3AD9 /* ひゃぁー！.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ひゃぁー！.mp3"; sourceTree = "<group>"; };
+		D7D9B91D1AF35B2F003C3AD9 /* ふええ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ふええ.mp3"; sourceTree = "<group>"; };
+		D7D9B91E1AF35B2F003C3AD9 /* ものすごく困る.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ものすごく困る.mp3"; sourceTree = "<group>"; };
+		D7D9B91F1AF35B2F003C3AD9 /* わけわからん.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "わけわからん.mp3"; sourceTree = "<group>"; };
+		D7D9B9201AF35B2F003C3AD9 /* 何ですか.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "何ですか.mp3"; sourceTree = "<group>"; };
+		D7D9B9211AF35B2F003C3AD9 /* 何のことです.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "何のことです.mp3"; sourceTree = "<group>"; };
+		D7D9B9221AF35B2F003C3AD9 /* 何の再履修です.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "何の再履修です.mp3"; sourceTree = "<group>"; };
+		D7D9B9231AF35B2F003C3AD9 /* 最終的に焼き鳥になるんですか？.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "最終的に焼き鳥になるんですか？.mp3"; sourceTree = "<group>"; };
+		D7D9B9241AF35B2F003C3AD9 /* 無茶ぶりは.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "無茶ぶりは.mp3"; sourceTree = "<group>"; };
+		D7D9B9251AF35B2F003C3AD9 /* 焼き鳥.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "焼き鳥.mp3"; sourceTree = "<group>"; };
+		D7D9B9261AF35B2F003C3AD9 /* 私も頑張りますぅ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "私も頑張りますぅ.mp3"; sourceTree = "<group>"; };
+		D7D9B9271AF35B2F003C3AD9 /* 言えませんよ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "言えませんよ.mp3"; sourceTree = "<group>"; };
+		D7D9B9281AF35B2F003C3AD9 /* 頑張って下さい.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "頑張って下さい.mp3"; sourceTree = "<group>"; };
+		D7D9B9291AF35B2F003C3AD9 /* 食べられるんですか？.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "食べられるんですか？.mp3"; sourceTree = "<group>"; };
+		D7D9B92A1AF35B2F003C3AD9 /* うまべ感情.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "うまべ感情.html"; sourceTree = "<group>"; };
+		D7D9B92B1AF35B2F003C3AD9 /* 音声データ.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "音声データ.html"; sourceTree = "<group>"; };
+		D7D9B92D1AF35B2F003C3AD9 /* ありがとうございます(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ありがとうございます(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B92E1AF35B2F003C3AD9 /* ありがとうございます(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ありがとうございます(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B92F1AF35B2F003C3AD9 /* ありがとうございます(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ありがとうございます(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B9301AF35B2F003C3AD9 /* ありがとうございます(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ありがとうございます(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B9311AF35B2F003C3AD9 /* ありがとうございます(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ありがとうございます(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B9321AF35B2F003C3AD9 /* ありがとうございます(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ありがとうございます(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B9331AF35B2F003C3AD9 /* いいえ(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いいえ(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B9341AF35B2F003C3AD9 /* いいえ(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いいえ(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B9351AF35B2F003C3AD9 /* いいえ(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いいえ(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B9361AF35B2F003C3AD9 /* いいえ(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いいえ(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B9371AF35B2F003C3AD9 /* いいえ(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いいえ(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B9381AF35B2F003C3AD9 /* いいえ(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いいえ(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B9391AF35B2F003C3AD9 /* いえ、そんなことないですよ(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いえ、そんなことないですよ(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B93A1AF35B2F003C3AD9 /* いえ、そんなことないですよ(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いえ、そんなことないですよ(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B93B1AF35B2F003C3AD9 /* いえ、そんなことないですよ(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いえ、そんなことないですよ(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B93C1AF35B2F003C3AD9 /* いえ、そんなことないですよ(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いえ、そんなことないですよ(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B93D1AF35B2F003C3AD9 /* いえ、そんなことないですよ(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いえ、そんなことないですよ(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B93E1AF35B2F003C3AD9 /* いえ、そんなことないですよ(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いえ、そんなことないですよ(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B93F1AF35B2F003C3AD9 /* おっしゃる通りです(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "おっしゃる通りです(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B9401AF35B2F003C3AD9 /* おっしゃる通りです(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "おっしゃる通りです(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B9411AF35B2F003C3AD9 /* おっしゃる通りです(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "おっしゃる通りです(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B9421AF35B2F003C3AD9 /* おっしゃる通りです(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "おっしゃる通りです(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B9431AF35B2F003C3AD9 /* おっしゃる通りです(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "おっしゃる通りです(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B9441AF35B2F003C3AD9 /* おっしゃる通りです(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "おっしゃる通りです(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B9451AF35B2F003C3AD9 /* さすがですね(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "さすがですね(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B9461AF35B2F003C3AD9 /* さすがですね(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "さすがですね(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B9471AF35B2F003C3AD9 /* さすがですね(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "さすがですね(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B9481AF35B2F003C3AD9 /* さすがですね(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "さすがですね(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B9491AF35B2F003C3AD9 /* さすがですね(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "さすがですね(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B94A1AF35B2F003C3AD9 /* さすがですね(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "さすがですね(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B94B1AF35B2F003C3AD9 /* すごいですね(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すごいですね(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B94C1AF35B2F003C3AD9 /* すごいですね(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すごいですね(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B94D1AF35B2F003C3AD9 /* すごいですね(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すごいですね(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B94E1AF35B2F003C3AD9 /* すごいですね(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すごいですね(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B94F1AF35B2F003C3AD9 /* すごいですね(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すごいですね(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B9501AF35B2F003C3AD9 /* すごいですね(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すごいですね(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B9511AF35B2F003C3AD9 /* すみません(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すみません(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B9521AF35B2F003C3AD9 /* すみません(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すみません(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B9531AF35B2F003C3AD9 /* すみません(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すみません(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B9541AF35B2F003C3AD9 /* すみません(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すみません(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B9551AF35B2F003C3AD9 /* すみません(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すみません(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B9561AF35B2F003C3AD9 /* すみません(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すみません(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B9571AF35B2F003C3AD9 /* ぜひおねがいします(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ぜひおねがいします(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B9581AF35B2F003C3AD9 /* ぜひおねがいします(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ぜひおねがいします(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B9591AF35B2F003C3AD9 /* ぜひおねがいします(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ぜひおねがいします(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B95A1AF35B2F003C3AD9 /* ぜひおねがいします(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ぜひおねがいします(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B95B1AF35B2F003C3AD9 /* ぜひおねがいします(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ぜひおねがいします(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B95C1AF35B2F003C3AD9 /* ぜひおねがいします(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ぜひおねがいします(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B95D1AF35B2F003C3AD9 /* はい(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "はい(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B95E1AF35B2F003C3AD9 /* はい(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "はい(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B95F1AF35B2F003C3AD9 /* はい(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "はい(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B9601AF35B2F003C3AD9 /* はい(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "はい(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B9611AF35B2F003C3AD9 /* はい(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "はい(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B9621AF35B2F003C3AD9 /* はい(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "はい(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B9631AF35B2F003C3AD9 /* ひどいですね(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ひどいですね(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B9641AF35B2F003C3AD9 /* ひどいですね(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ひどいですね(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B9651AF35B2F003C3AD9 /* ひどいですね(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ひどいですね(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B9661AF35B2F003C3AD9 /* ひどいですね(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ひどいですね(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B9671AF35B2F003C3AD9 /* ひどいですね(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ひどいですね(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B9681AF35B2F003C3AD9 /* ひどいですね(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ひどいですね(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B9691AF35B2F003C3AD9 /* 大丈夫？(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "大丈夫？(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B96A1AF35B2F003C3AD9 /* 大丈夫？(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "大丈夫？(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B96B1AF35B2F003C3AD9 /* 大丈夫？(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "大丈夫？(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B96C1AF35B2F003C3AD9 /* 大丈夫？(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "大丈夫？(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B96D1AF35B2F003C3AD9 /* 大丈夫？(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "大丈夫？(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B96E1AF35B2F003C3AD9 /* 大丈夫？(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "大丈夫？(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B96F1AF35B2F003C3AD9 /* 用事があるので失礼します(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "用事があるので失礼します(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B9701AF35B2F003C3AD9 /* 用事があるので失礼します(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "用事があるので失礼します(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B9711AF35B2F003C3AD9 /* 用事があるので失礼します(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "用事があるので失礼します(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B9721AF35B2F003C3AD9 /* 用事があるので失礼します(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "用事があるので失礼します(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B9731AF35B2F003C3AD9 /* 用事があるので失礼します(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "用事があるので失礼します(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B9741AF35B2F003C3AD9 /* 用事があるので失礼します(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "用事があるので失礼します(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B9751AF35B2F003C3AD9 /* 知りませんでした(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "知りませんでした(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B9761AF35B2F003C3AD9 /* 知りませんでした(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "知りませんでした(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B9771AF35B2F003C3AD9 /* 知りませんでした(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "知りませんでした(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B9781AF35B2F003C3AD9 /* 知りませんでした(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "知りませんでした(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B9791AF35B2F003C3AD9 /* 知りませんでした(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "知りませんでした(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B97A1AF35B2F003C3AD9 /* 知りませんでした(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "知りませんでした(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B97B1AF35B2F003C3AD9 /* 結構です(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "結構です(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B97C1AF35B2F003C3AD9 /* 結構です(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "結構です(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B97D1AF35B2F003C3AD9 /* 結構です(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "結構です(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B97E1AF35B2F003C3AD9 /* 結構です(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "結構です(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B97F1AF35B2F003C3AD9 /* 結構です(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "結構です(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B9801AF35B2F003C3AD9 /* 結構です(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "結構です(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B9821AF35B2F003C3AD9 /* ありがとうございます(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ありがとうございます(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B9831AF35B2F003C3AD9 /* ありがとうございます(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ありがとうございます(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B9841AF35B2F003C3AD9 /* ありがとうございます(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ありがとうございます(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B9851AF35B2F003C3AD9 /* ありがとうございます(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ありがとうございます(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B9861AF35B2F003C3AD9 /* ありがとうございます(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ありがとうございます(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B9871AF35B2F003C3AD9 /* ありがとうございます(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ありがとうございます(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B9881AF35B2F003C3AD9 /* いいえ(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いいえ(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B9891AF35B2F003C3AD9 /* いいえ(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いいえ(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B98A1AF35B2F003C3AD9 /* いいえ(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いいえ(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B98B1AF35B2F003C3AD9 /* いいえ(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いいえ(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B98C1AF35B2F003C3AD9 /* いいえ(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いいえ(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B98D1AF35B2F003C3AD9 /* いいえ(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いいえ(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B98E1AF35B2F003C3AD9 /* いえ、そんなことないですよ(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いえ、そんなことないですよ(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B98F1AF35B2F003C3AD9 /* いえ、そんなことないですよ(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いえ、そんなことないですよ(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B9901AF35B2F003C3AD9 /* いえ、そんなことないですよ(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いえ、そんなことないですよ(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B9911AF35B2F003C3AD9 /* いえ、そんなことないですよ(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いえ、そんなことないですよ(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B9921AF35B2F003C3AD9 /* いえ、そんなことないですよ(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いえ、そんなことないですよ(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B9931AF35B2F003C3AD9 /* いえ、そんなことないですよ(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いえ、そんなことないですよ(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B9941AF35B2F003C3AD9 /* おっしゃる通りです(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "おっしゃる通りです(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B9951AF35B2F003C3AD9 /* おっしゃる通りです(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "おっしゃる通りです(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B9961AF35B2F003C3AD9 /* おっしゃる通りです(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "おっしゃる通りです(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B9971AF35B2F003C3AD9 /* おっしゃる通りです(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "おっしゃる通りです(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B9981AF35B2F003C3AD9 /* おっしゃる通りです(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "おっしゃる通りです(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B9991AF35B2F003C3AD9 /* おっしゃる通りです(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "おっしゃる通りです(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B99A1AF35B2F003C3AD9 /* さすがですね(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "さすがですね(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B99B1AF35B2F003C3AD9 /* さすがですね(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "さすがですね(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B99C1AF35B2F003C3AD9 /* さすがですね(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "さすがですね(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B99D1AF35B2F003C3AD9 /* さすがですね(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "さすがですね(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B99E1AF35B2F003C3AD9 /* さすがですね(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "さすがですね(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B99F1AF35B2F003C3AD9 /* さすがですね(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "さすがですね(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B9A01AF35B2F003C3AD9 /* すごいですね(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すごいですね(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B9A11AF35B2F003C3AD9 /* すごいですね(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すごいですね(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B9A21AF35B2F003C3AD9 /* すごいですね(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すごいですね(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B9A31AF35B2F003C3AD9 /* すごいですね(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すごいですね(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B9A41AF35B2F003C3AD9 /* すごいですね(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すごいですね(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B9A51AF35B2F003C3AD9 /* すごいですね(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すごいですね(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B9A61AF35B2F003C3AD9 /* すみません(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すみません(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B9A71AF35B2F003C3AD9 /* すみません(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すみません(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B9A81AF35B2F003C3AD9 /* すみません(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すみません(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B9A91AF35B2F003C3AD9 /* すみません(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すみません(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B9AA1AF35B2F003C3AD9 /* すみません(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すみません(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B9AB1AF35B2F003C3AD9 /* すみません(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すみません(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B9AC1AF35B2F003C3AD9 /* ぜひおねがいします(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ぜひおねがいします(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B9AD1AF35B2F003C3AD9 /* ぜひおねがいします(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ぜひおねがいします(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B9AE1AF35B2F003C3AD9 /* ぜひおねがいします(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ぜひおねがいします(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B9AF1AF35B2F003C3AD9 /* ぜひおねがいします(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ぜひおねがいします(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B9B01AF35B2F003C3AD9 /* ぜひおねがいします(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ぜひおねがいします(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B9B11AF35B2F003C3AD9 /* ぜひおねがいします(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ぜひおねがいします(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B9B21AF35B2F003C3AD9 /* はい(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "はい(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B9B31AF35B2F003C3AD9 /* はい(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "はい(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B9B41AF35B2F003C3AD9 /* はい(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "はい(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B9B51AF35B2F003C3AD9 /* はい(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "はい(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B9B61AF35B2F003C3AD9 /* はい(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "はい(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B9B71AF35B2F003C3AD9 /* はい(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "はい(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B9B81AF35B2F003C3AD9 /* ひどいですね(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ひどいですね(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B9B91AF35B2F003C3AD9 /* ひどいですね(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ひどいですね(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B9BA1AF35B2F003C3AD9 /* ひどいですね(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ひどいですね(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B9BB1AF35B2F003C3AD9 /* ひどいですね(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ひどいですね(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B9BC1AF35B2F003C3AD9 /* ひどいですね(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ひどいですね(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B9BD1AF35B2F003C3AD9 /* ひどいですね(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ひどいですね(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B9BE1AF35B2F003C3AD9 /* 大丈夫？(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "大丈夫？(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B9BF1AF35B2F003C3AD9 /* 大丈夫？(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "大丈夫？(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B9C01AF35B2F003C3AD9 /* 大丈夫？(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "大丈夫？(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B9C11AF35B2F003C3AD9 /* 大丈夫？(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "大丈夫？(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B9C21AF35B2F003C3AD9 /* 大丈夫？(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "大丈夫？(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B9C31AF35B2F003C3AD9 /* 大丈夫？(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "大丈夫？(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B9C41AF35B2F003C3AD9 /* 用事があるので失礼します(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "用事があるので失礼します(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B9C51AF35B2F003C3AD9 /* 用事があるので失礼します(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "用事があるので失礼します(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B9C61AF35B2F003C3AD9 /* 用事があるので失礼します(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "用事があるので失礼します(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B9C71AF35B2F003C3AD9 /* 用事があるので失礼します(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "用事があるので失礼します(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B9C81AF35B2F003C3AD9 /* 用事があるので失礼します(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "用事があるので失礼します(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B9C91AF35B2F003C3AD9 /* 用事があるので失礼します(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "用事があるので失礼します(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B9CA1AF35B2F003C3AD9 /* 知りませんでした(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "知りませんでした(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B9CB1AF35B2F003C3AD9 /* 知りませんでした(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "知りませんでした(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B9CC1AF35B2F003C3AD9 /* 知りませんでした(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "知りませんでした(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B9CD1AF35B2F003C3AD9 /* 知りませんでした(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "知りませんでした(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B9CE1AF35B2F003C3AD9 /* 知りませんでした(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "知りませんでした(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B9CF1AF35B2F003C3AD9 /* 知りませんでした(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "知りませんでした(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B9D01AF35B2F003C3AD9 /* 結構です(嫌悪).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "結構です(嫌悪).m4a"; sourceTree = "<group>"; };
+		D7D9B9D11AF35B2F003C3AD9 /* 結構です(幸福感).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "結構です(幸福感).m4a"; sourceTree = "<group>"; };
+		D7D9B9D21AF35B2F003C3AD9 /* 結構です(怒り).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "結構です(怒り).m4a"; sourceTree = "<group>"; };
+		D7D9B9D31AF35B2F003C3AD9 /* 結構です(恐れ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "結構です(恐れ).m4a"; sourceTree = "<group>"; };
+		D7D9B9D41AF35B2F003C3AD9 /* 結構です(悲しみ).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "結構です(悲しみ).m4a"; sourceTree = "<group>"; };
+		D7D9B9D51AF35B2F003C3AD9 /* 結構です(驚き).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "結構です(驚き).m4a"; sourceTree = "<group>"; };
+		D7D9B9D71AF35B2F003C3AD9 /* voice.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = voice.txt; sourceTree = "<group>"; };
+		D7D9B9D81AF35B2F003C3AD9 /* あと少しですね.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "あと少しですね.m4a"; sourceTree = "<group>"; };
+		D7D9B9D91AF35B2F003C3AD9 /* ありがとうございます.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ありがとうございます.m4a"; sourceTree = "<group>"; };
+		D7D9B9DA1AF35B2F003C3AD9 /* いえ、そんなことないですよ.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いえ、そんなことないですよ.m4a"; sourceTree = "<group>"; };
+		D7D9B9DB1AF35B2F003C3AD9 /* いやぁ.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いやぁ.m4a"; sourceTree = "<group>"; };
+		D7D9B9DC1AF35B2F003C3AD9 /* いろいろありますよね.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "いろいろありますよね.m4a"; sourceTree = "<group>"; };
+		D7D9B9DD1AF35B2F003C3AD9 /* うらやましいです.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "うらやましいです.m4a"; sourceTree = "<group>"; };
+		D7D9B9DE1AF35B2F003C3AD9 /* おっしゃる通りです.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "おっしゃる通りです.m4a"; sourceTree = "<group>"; };
+		D7D9B9DF1AF35B2F003C3AD9 /* お休みになってください.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "お休みになってください.m4a"; sourceTree = "<group>"; };
+		D7D9B9E01AF35B2F003C3AD9 /* お知り合いですか？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "お知り合いですか？.m4a"; sourceTree = "<group>"; };
+		D7D9B9E11AF35B2F003C3AD9 /* きっかけは？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "きっかけは？.m4a"; sourceTree = "<group>"; };
+		D7D9B9E21AF35B2F003C3AD9 /* きっとそうします.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "きっとそうします.m4a"; sourceTree = "<group>"; };
+		D7D9B9E31AF35B2F003C3AD9 /* ここまで来たらとことんやりましょう.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ここまで来たらとことんやりましょう.m4a"; sourceTree = "<group>"; };
+		D7D9B9E41AF35B2F003C3AD9 /* ご存知ですか？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ご存知ですか？.m4a"; sourceTree = "<group>"; };
+		D7D9B9E51AF35B2F003C3AD9 /* さすがですね.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "さすがですね.m4a"; sourceTree = "<group>"; };
+		D7D9B9E61AF35B2F003C3AD9 /* すごいですね.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すごいですね.m4a"; sourceTree = "<group>"; };
+		D7D9B9E71AF35B2F003C3AD9 /* すごく面白いです.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すごく面白いです.m4a"; sourceTree = "<group>"; };
+		D7D9B9E81AF35B2F003C3AD9 /* すみません.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "すみません.m4a"; sourceTree = "<group>"; };
+		D7D9B9E91AF35B2F003C3AD9 /* ぜひおねがいします.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ぜひおねがいします.m4a"; sourceTree = "<group>"; };
+		D7D9B9EA1AF35B2F003C3AD9 /* そうすればいいのか.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "そうすればいいのか.m4a"; sourceTree = "<group>"; };
+		D7D9B9EB1AF35B2F003C3AD9 /* ちょっと困るんです.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ちょっと困るんです.m4a"; sourceTree = "<group>"; };
+		D7D9B9EC1AF35B2F003C3AD9 /* できますか？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "できますか？.m4a"; sourceTree = "<group>"; };
+		D7D9B9ED1AF35B2F003C3AD9 /* とても敵いません.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "とても敵いません.m4a"; sourceTree = "<group>"; };
+		D7D9B9EE1AF35B2F003C3AD9 /* とても真似できません.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "とても真似できません.m4a"; sourceTree = "<group>"; };
+		D7D9B9EF1AF35B2F003C3AD9 /* どうでしたか？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "どうでしたか？.m4a"; sourceTree = "<group>"; };
+		D7D9B9F01AF35B2F003C3AD9 /* どこかに行かれましたか？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "どこかに行かれましたか？.m4a"; sourceTree = "<group>"; };
+		D7D9B9F11AF35B2F003C3AD9 /* どこがポイントになりますか？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "どこがポイントになりますか？.m4a"; sourceTree = "<group>"; };
+		D7D9B9F21AF35B2F003C3AD9 /* どこまで話しましたか？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "どこまで話しましたか？.m4a"; sourceTree = "<group>"; };
+		D7D9B9F31AF35B2F003C3AD9 /* どちらを選びますか？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "どちらを選びますか？.m4a"; sourceTree = "<group>"; };
+		D7D9B9F41AF35B2F003C3AD9 /* なぜそうなるのですか？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "なぜそうなるのですか？.m4a"; sourceTree = "<group>"; };
+		D7D9B9F51AF35B2F003C3AD9 /* ひどいですね.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ひどいですね.m4a"; sourceTree = "<group>"; };
+		D7D9B9F61AF35B2F003C3AD9 /* まだ考え中です.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "まだ考え中です.m4a"; sourceTree = "<group>"; };
+		D7D9B9F71AF35B2F003C3AD9 /* また今度聞かせてください.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "また今度聞かせてください.m4a"; sourceTree = "<group>"; };
+		D7D9B9F81AF35B2F003C3AD9 /* もしよろしければ.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "もしよろしければ.m4a"; sourceTree = "<group>"; };
+		D7D9B9F91AF35B2F003C3AD9 /* よくがんばっていますね.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "よくがんばっていますね.m4a"; sourceTree = "<group>"; };
+		D7D9B9FA1AF35B2F003C3AD9 /* よく気付きましたね.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "よく気付きましたね.m4a"; sourceTree = "<group>"; };
+		D7D9B9FB1AF35B2F003C3AD9 /* コツはありますか？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "コツはありますか？.m4a"; sourceTree = "<group>"; };
+		D7D9B9FC1AF35B2F003C3AD9 /* ポイントを整理しましょう.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ポイントを整理しましょう.m4a"; sourceTree = "<group>"; };
+		D7D9B9FD1AF35B2F003C3AD9 /* 一言で言うと？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "一言で言うと？.m4a"; sourceTree = "<group>"; };
+		D7D9B9FE1AF35B2F003C3AD9 /* 人見知りなんです.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "人見知りなんです.m4a"; sourceTree = "<group>"; };
+		D7D9B9FF1AF35B2F003C3AD9 /* 他にもありますか？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "他にもありますか？.m4a"; sourceTree = "<group>"; };
+		D7D9BA001AF35B2F003C3AD9 /* 何がいいと思いますか？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "何がいいと思いますか？.m4a"; sourceTree = "<group>"; };
+		D7D9BA011AF35B2F003C3AD9 /* 何という種類ですか？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "何という種類ですか？.m4a"; sourceTree = "<group>"; };
+		D7D9BA021AF35B2F003C3AD9 /* 何人いらっしゃいますか？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "何人いらっしゃいますか？.m4a"; sourceTree = "<group>"; };
+		D7D9BA031AF35B2F003C3AD9 /* 何時まででしたっけ？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "何時まででしたっけ？.m4a"; sourceTree = "<group>"; };
+		D7D9BA041AF35B2F003C3AD9 /* 便利ですね.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "便利ですね.m4a"; sourceTree = "<group>"; };
+		D7D9BA051AF35B2F003C3AD9 /* 初めてですか？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "初めてですか？.m4a"; sourceTree = "<group>"; };
+		D7D9BA061AF35B2F003C3AD9 /* 前から聞きたかったのですが.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "前から聞きたかったのですが.m4a"; sourceTree = "<group>"; };
+		D7D9BA071AF35B2F003C3AD9 /* 参りました.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "参りました.m4a"; sourceTree = "<group>"; };
+		D7D9BA081AF35B2F003C3AD9 /* 大丈夫？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "大丈夫？.m4a"; sourceTree = "<group>"; };
+		D7D9BA091AF35B2F003C3AD9 /* 大変でしたね.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "大変でしたね.m4a"; sourceTree = "<group>"; };
+		D7D9BA0A1AF35B30003C3AD9 /* 嫌ならいいんだけど.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "嫌ならいいんだけど.m4a"; sourceTree = "<group>"; };
+		D7D9BA0B1AF35B30003C3AD9 /* 得意ですか？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "得意ですか？.m4a"; sourceTree = "<group>"; };
+		D7D9BA0C1AF35B30003C3AD9 /* 意外です.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "意外です.m4a"; sourceTree = "<group>"; };
+		D7D9BA0D1AF35B30003C3AD9 /* 放っておいてよ.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "放っておいてよ.m4a"; sourceTree = "<group>"; };
+		D7D9BA0E1AF35B30003C3AD9 /* 教えてもらえますか？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "教えてもらえますか？.m4a"; sourceTree = "<group>"; };
+		D7D9BA0F1AF35B30003C3AD9 /* 最高でどれくらいですか？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "最高でどれくらいですか？.m4a"; sourceTree = "<group>"; };
+		D7D9BA101AF35B30003C3AD9 /* 毎日続けていることはありますか？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "毎日続けていることはありますか？.m4a"; sourceTree = "<group>"; };
+		D7D9BA111AF35B30003C3AD9 /* 用事があるので失礼します.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "用事があるので失礼します.m4a"; sourceTree = "<group>"; };
+		D7D9BA121AF35B30003C3AD9 /* 知りませんでした.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "知りませんでした.m4a"; sourceTree = "<group>"; };
+		D7D9BA131AF35B30003C3AD9 /* 私には思いつきません.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "私には思いつきません.m4a"; sourceTree = "<group>"; };
+		D7D9BA141AF35B30003C3AD9 /* 素敵ですね.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "素敵ですね.m4a"; sourceTree = "<group>"; };
+		D7D9BA151AF35B30003C3AD9 /* 結構です.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "結構です.m4a"; sourceTree = "<group>"; };
+		D7D9BA161AF35B30003C3AD9 /* 考えてみましょう.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "考えてみましょう.m4a"; sourceTree = "<group>"; };
+		D7D9BA171AF35B30003C3AD9 /* 興味はありますか？.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "興味はありますか？.m4a"; sourceTree = "<group>"; };
+		D7D9BA181AF35B30003C3AD9 /* 言われてみれば.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "言われてみれば.m4a"; sourceTree = "<group>"; };
+		D7D9BB9F1AF37154003C3AD9 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		D7D9BBA31AF378C1003C3AD9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +829,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7D9BBA01AF37154003C3AD9 /* MediaPlayer.framework in Frameworks */,
+				D7D9B8871AF356F3003C3AD9 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,10 +866,13 @@
 			isa = PBXGroup;
 			children = (
 				D71326251AF347BF003A5932 /* AppDelegate.swift */,
-				D71326271AF347BF003A5932 /* ViewController.swift */,
+				D71326271AF347BF003A5932 /* TableViewController.swift */,
+				D7D9BBA31AF378C1003C3AD9 /* ViewController.swift */,
 				D71326291AF347BF003A5932 /* Main.storyboard */,
 				D713262C1AF347BF003A5932 /* Images.xcassets */,
 				D713262E1AF347BF003A5932 /* LaunchScreen.xib */,
+				D7D9B8881AF356FC003C3AD9 /* Freamework */,
+				D7D9B87F1AF35571003C3AD9 /* UrabeVoiceFile */,
 				D71326231AF347BF003A5932 /* Supporting Files */,
 			);
 			path = "CommunicationSupportTool-iOS";
@@ -110,6 +901,495 @@
 				D713263A1AF347BF003A5932 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7D9B87F1AF35571003C3AD9 /* UrabeVoiceFile */ = {
+			isa = PBXGroup;
+			children = (
+				D7D9B8891AF35B2F003C3AD9 /* フォルダ */,
+				D7D9B9811AF35B2F003C3AD9 /* 音声データ2 */,
+				D7D9B9D61AF35B2F003C3AD9 /* 録音データ */,
+			);
+			name = UrabeVoiceFile;
+			sourceTree = "<group>";
+		};
+		D7D9B8881AF356FC003C3AD9 /* Freamework */ = {
+			isa = PBXGroup;
+			children = (
+				D7D9BB9F1AF37154003C3AD9 /* MediaPlayer.framework */,
+				D7D9B8861AF356F3003C3AD9 /* AVFoundation.framework */,
+			);
+			name = Freamework;
+			sourceTree = "<group>";
+		};
+		D7D9B8891AF35B2F003C3AD9 /* フォルダ */ = {
+			isa = PBXGroup;
+			children = (
+				D7D9B88A1AF35B2F003C3AD9 /* VoiceCT */,
+			);
+			name = "フォルダ";
+			path = "../../../../../Downloads/アーカイブ/フォルダ";
+			sourceTree = "<group>";
+		};
+		D7D9B88A1AF35B2F003C3AD9 /* VoiceCT */ = {
+			isa = PBXGroup;
+			children = (
+				D7D9B88B1AF35B2F003C3AD9 /* 2 */,
+				D7D9B9061AF35B2F003C3AD9 /* 3 */,
+			);
+			path = VoiceCT;
+			sourceTree = "<group>";
+		};
+		D7D9B88B1AF35B2F003C3AD9 /* 2 */ = {
+			isa = PBXGroup;
+			children = (
+				D7D9B88C1AF35B2F003C3AD9 /* kameone12.html */,
+				D7D9B88D1AF35B2F003C3AD9 /* うまべ */,
+				D7D9B8AF1AF35B2F003C3AD9 /* うまべ感情.html */,
+				D7D9B8B01AF35B2F003C3AD9 /* 音声データ.html */,
+				D7D9B8B11AF35B2F003C3AD9 /* 音声データ２ */,
+			);
+			path = 2;
+			sourceTree = "<group>";
+		};
+		D7D9B88D1AF35B2F003C3AD9 /* うまべ */ = {
+			isa = PBXGroup;
+			children = (
+				D7D9B88E1AF35B2F003C3AD9 /* Uma.jpg */,
+				D7D9B88F1AF35B2F003C3AD9 /* あー調べてました.mp3 */,
+				D7D9B8901AF35B2F003C3AD9 /* いえぇぇえ.mp3 */,
+				D7D9B8911AF35B2F003C3AD9 /* いやぁ.mp3 */,
+				D7D9B8921AF35B2F003C3AD9 /* いやぁー.mp3 */,
+				D7D9B8931AF35B2F003C3AD9 /* いやいや.mp3 */,
+				D7D9B8941AF35B2F003C3AD9 /* いやいやいやいや.mp3 */,
+				D7D9B8951AF35B2F003C3AD9 /* うまべ.mp3 */,
+				D7D9B8961AF35B2F003C3AD9 /* え.mp3 */,
+				D7D9B8971AF35B2F003C3AD9 /* えへへ.mp3 */,
+				D7D9B8981AF35B2F003C3AD9 /* えー.mp3 */,
+				D7D9B8991AF35B2F003C3AD9 /* えー！.mp3 */,
+				D7D9B89A1AF35B2F003C3AD9 /* えー？.mp3 */,
+				D7D9B89B1AF35B2F003C3AD9 /* え？（低音）.mp3 */,
+				D7D9B89C1AF35B2F003C3AD9 /* おしまい？.mp3 */,
+				D7D9B89D1AF35B2F003C3AD9 /* それだめじゃないです.mp3 */,
+				D7D9B89E1AF35B2F003C3AD9 /* それ思った.mp3 */,
+				D7D9B89F1AF35B2F003C3AD9 /* な？何を言ってる？.mp3 */,
+				D7D9B8A01AF35B2F003C3AD9 /* はい！.mp3 */,
+				D7D9B8A11AF35B2F003C3AD9 /* ひゃぁー！.mp3 */,
+				D7D9B8A21AF35B2F003C3AD9 /* ふええ.mp3 */,
+				D7D9B8A31AF35B2F003C3AD9 /* ものすごく困る.mp3 */,
+				D7D9B8A41AF35B2F003C3AD9 /* わけわからん.mp3 */,
+				D7D9B8A51AF35B2F003C3AD9 /* 何ですか.mp3 */,
+				D7D9B8A61AF35B2F003C3AD9 /* 何のことです.mp3 */,
+				D7D9B8A71AF35B2F003C3AD9 /* 何の再履修です.mp3 */,
+				D7D9B8A81AF35B2F003C3AD9 /* 最終的に焼き鳥になるんですか？.mp3 */,
+				D7D9B8A91AF35B2F003C3AD9 /* 無茶ぶりは.mp3 */,
+				D7D9B8AA1AF35B2F003C3AD9 /* 焼き鳥.mp3 */,
+				D7D9B8AB1AF35B2F003C3AD9 /* 私も頑張りますぅ.mp3 */,
+				D7D9B8AC1AF35B2F003C3AD9 /* 言えませんよ.mp3 */,
+				D7D9B8AD1AF35B2F003C3AD9 /* 頑張って下さい.mp3 */,
+				D7D9B8AE1AF35B2F003C3AD9 /* 食べられるんですか？.mp3 */,
+			);
+			path = "うまべ";
+			sourceTree = "<group>";
+		};
+		D7D9B8B11AF35B2F003C3AD9 /* 音声データ２ */ = {
+			isa = PBXGroup;
+			children = (
+				D7D9B8B21AF35B2F003C3AD9 /* ありがとうございます(嫌悪).m4a */,
+				D7D9B8B31AF35B2F003C3AD9 /* ありがとうございます(幸福感).m4a */,
+				D7D9B8B41AF35B2F003C3AD9 /* ありがとうございます(怒り).m4a */,
+				D7D9B8B51AF35B2F003C3AD9 /* ありがとうございます(恐れ).m4a */,
+				D7D9B8B61AF35B2F003C3AD9 /* ありがとうございます(悲しみ).m4a */,
+				D7D9B8B71AF35B2F003C3AD9 /* ありがとうございます(驚き).m4a */,
+				D7D9B8B81AF35B2F003C3AD9 /* いいえ(嫌悪).m4a */,
+				D7D9B8B91AF35B2F003C3AD9 /* いいえ(幸福感).m4a */,
+				D7D9B8BA1AF35B2F003C3AD9 /* いいえ(怒り).m4a */,
+				D7D9B8BB1AF35B2F003C3AD9 /* いいえ(恐れ).m4a */,
+				D7D9B8BC1AF35B2F003C3AD9 /* いいえ(悲しみ).m4a */,
+				D7D9B8BD1AF35B2F003C3AD9 /* いいえ(驚き).m4a */,
+				D7D9B8BE1AF35B2F003C3AD9 /* いえ、そんなことないですよ(嫌悪).m4a */,
+				D7D9B8BF1AF35B2F003C3AD9 /* いえ、そんなことないですよ(幸福感).m4a */,
+				D7D9B8C01AF35B2F003C3AD9 /* いえ、そんなことないですよ(怒り).m4a */,
+				D7D9B8C11AF35B2F003C3AD9 /* いえ、そんなことないですよ(恐れ).m4a */,
+				D7D9B8C21AF35B2F003C3AD9 /* いえ、そんなことないですよ(悲しみ).m4a */,
+				D7D9B8C31AF35B2F003C3AD9 /* いえ、そんなことないですよ(驚き).m4a */,
+				D7D9B8C41AF35B2F003C3AD9 /* おっしゃる通りです(嫌悪).m4a */,
+				D7D9B8C51AF35B2F003C3AD9 /* おっしゃる通りです(幸福感).m4a */,
+				D7D9B8C61AF35B2F003C3AD9 /* おっしゃる通りです(怒り).m4a */,
+				D7D9B8C71AF35B2F003C3AD9 /* おっしゃる通りです(恐れ).m4a */,
+				D7D9B8C81AF35B2F003C3AD9 /* おっしゃる通りです(悲しみ).m4a */,
+				D7D9B8C91AF35B2F003C3AD9 /* おっしゃる通りです(驚き).m4a */,
+				D7D9B8CA1AF35B2F003C3AD9 /* さすがですね(嫌悪).m4a */,
+				D7D9B8CB1AF35B2F003C3AD9 /* さすがですね(幸福感).m4a */,
+				D7D9B8CC1AF35B2F003C3AD9 /* さすがですね(怒り).m4a */,
+				D7D9B8CD1AF35B2F003C3AD9 /* さすがですね(恐れ).m4a */,
+				D7D9B8CE1AF35B2F003C3AD9 /* さすがですね(悲しみ).m4a */,
+				D7D9B8CF1AF35B2F003C3AD9 /* さすがですね(驚き).m4a */,
+				D7D9B8D01AF35B2F003C3AD9 /* すごいですね(嫌悪).m4a */,
+				D7D9B8D11AF35B2F003C3AD9 /* すごいですね(幸福感).m4a */,
+				D7D9B8D21AF35B2F003C3AD9 /* すごいですね(怒り).m4a */,
+				D7D9B8D31AF35B2F003C3AD9 /* すごいですね(恐れ).m4a */,
+				D7D9B8D41AF35B2F003C3AD9 /* すごいですね(悲しみ).m4a */,
+				D7D9B8D51AF35B2F003C3AD9 /* すごいですね(驚き).m4a */,
+				D7D9B8D61AF35B2F003C3AD9 /* すみません(嫌悪).m4a */,
+				D7D9B8D71AF35B2F003C3AD9 /* すみません(幸福感).m4a */,
+				D7D9B8D81AF35B2F003C3AD9 /* すみません(怒り).m4a */,
+				D7D9B8D91AF35B2F003C3AD9 /* すみません(恐れ).m4a */,
+				D7D9B8DA1AF35B2F003C3AD9 /* すみません(悲しみ).m4a */,
+				D7D9B8DB1AF35B2F003C3AD9 /* すみません(驚き).m4a */,
+				D7D9B8DC1AF35B2F003C3AD9 /* ぜひおねがいします(嫌悪).m4a */,
+				D7D9B8DD1AF35B2F003C3AD9 /* ぜひおねがいします(幸福感).m4a */,
+				D7D9B8DE1AF35B2F003C3AD9 /* ぜひおねがいします(怒り).m4a */,
+				D7D9B8DF1AF35B2F003C3AD9 /* ぜひおねがいします(恐れ).m4a */,
+				D7D9B8E01AF35B2F003C3AD9 /* ぜひおねがいします(悲しみ).m4a */,
+				D7D9B8E11AF35B2F003C3AD9 /* ぜひおねがいします(驚き).m4a */,
+				D7D9B8E21AF35B2F003C3AD9 /* はい(嫌悪).m4a */,
+				D7D9B8E31AF35B2F003C3AD9 /* はい(幸福感).m4a */,
+				D7D9B8E41AF35B2F003C3AD9 /* はい(怒り).m4a */,
+				D7D9B8E51AF35B2F003C3AD9 /* はい(恐れ).m4a */,
+				D7D9B8E61AF35B2F003C3AD9 /* はい(悲しみ).m4a */,
+				D7D9B8E71AF35B2F003C3AD9 /* はい(驚き).m4a */,
+				D7D9B8E81AF35B2F003C3AD9 /* ひどいですね(嫌悪).m4a */,
+				D7D9B8E91AF35B2F003C3AD9 /* ひどいですね(幸福感).m4a */,
+				D7D9B8EA1AF35B2F003C3AD9 /* ひどいですね(怒り).m4a */,
+				D7D9B8EB1AF35B2F003C3AD9 /* ひどいですね(恐れ).m4a */,
+				D7D9B8EC1AF35B2F003C3AD9 /* ひどいですね(悲しみ).m4a */,
+				D7D9B8ED1AF35B2F003C3AD9 /* ひどいですね(驚き).m4a */,
+				D7D9B8EE1AF35B2F003C3AD9 /* 大丈夫？(嫌悪).m4a */,
+				D7D9B8EF1AF35B2F003C3AD9 /* 大丈夫？(幸福感).m4a */,
+				D7D9B8F01AF35B2F003C3AD9 /* 大丈夫？(怒り).m4a */,
+				D7D9B8F11AF35B2F003C3AD9 /* 大丈夫？(恐れ).m4a */,
+				D7D9B8F21AF35B2F003C3AD9 /* 大丈夫？(悲しみ).m4a */,
+				D7D9B8F31AF35B2F003C3AD9 /* 大丈夫？(驚き).m4a */,
+				D7D9B8F41AF35B2F003C3AD9 /* 用事があるので失礼します(嫌悪).m4a */,
+				D7D9B8F51AF35B2F003C3AD9 /* 用事があるので失礼します(幸福感).m4a */,
+				D7D9B8F61AF35B2F003C3AD9 /* 用事があるので失礼します(怒り).m4a */,
+				D7D9B8F71AF35B2F003C3AD9 /* 用事があるので失礼します(恐れ).m4a */,
+				D7D9B8F81AF35B2F003C3AD9 /* 用事があるので失礼します(悲しみ).m4a */,
+				D7D9B8F91AF35B2F003C3AD9 /* 用事があるので失礼します(驚き).m4a */,
+				D7D9B8FA1AF35B2F003C3AD9 /* 知りませんでした(嫌悪).m4a */,
+				D7D9B8FB1AF35B2F003C3AD9 /* 知りませんでした(幸福感).m4a */,
+				D7D9B8FC1AF35B2F003C3AD9 /* 知りませんでした(怒り).m4a */,
+				D7D9B8FD1AF35B2F003C3AD9 /* 知りませんでした(恐れ).m4a */,
+				D7D9B8FE1AF35B2F003C3AD9 /* 知りませんでした(悲しみ).m4a */,
+				D7D9B8FF1AF35B2F003C3AD9 /* 知りませんでした(驚き).m4a */,
+				D7D9B9001AF35B2F003C3AD9 /* 結構です(嫌悪).m4a */,
+				D7D9B9011AF35B2F003C3AD9 /* 結構です(幸福感).m4a */,
+				D7D9B9021AF35B2F003C3AD9 /* 結構です(怒り).m4a */,
+				D7D9B9031AF35B2F003C3AD9 /* 結構です(恐れ).m4a */,
+				D7D9B9041AF35B2F003C3AD9 /* 結構です(悲しみ).m4a */,
+				D7D9B9051AF35B2F003C3AD9 /* 結構です(驚き).m4a */,
+			);
+			path = "音声データ２";
+			sourceTree = "<group>";
+		};
+		D7D9B9061AF35B2F003C3AD9 /* 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D7D9B9071AF35B2F003C3AD9 /* kameone12.html */,
+				D7D9B9081AF35B2F003C3AD9 /* うまべ */,
+				D7D9B92A1AF35B2F003C3AD9 /* うまべ感情.html */,
+				D7D9B92B1AF35B2F003C3AD9 /* 音声データ.html */,
+				D7D9B92C1AF35B2F003C3AD9 /* 音声データ２ */,
+			);
+			path = 3;
+			sourceTree = "<group>";
+		};
+		D7D9B9081AF35B2F003C3AD9 /* うまべ */ = {
+			isa = PBXGroup;
+			children = (
+				D7D9B9091AF35B2F003C3AD9 /* Uma.jpg */,
+				D7D9B90A1AF35B2F003C3AD9 /* あー調べてました.mp3 */,
+				D7D9B90B1AF35B2F003C3AD9 /* いえぇぇえ.mp3 */,
+				D7D9B90C1AF35B2F003C3AD9 /* いやぁ.mp3 */,
+				D7D9B90D1AF35B2F003C3AD9 /* いやぁー.mp3 */,
+				D7D9B90E1AF35B2F003C3AD9 /* いやいや.mp3 */,
+				D7D9B90F1AF35B2F003C3AD9 /* いやいやいやいや.mp3 */,
+				D7D9B9101AF35B2F003C3AD9 /* うまべ.mp3 */,
+				D7D9B9111AF35B2F003C3AD9 /* え.mp3 */,
+				D7D9B9121AF35B2F003C3AD9 /* えへへ.mp3 */,
+				D7D9B9131AF35B2F003C3AD9 /* えー.mp3 */,
+				D7D9B9141AF35B2F003C3AD9 /* えー！.mp3 */,
+				D7D9B9151AF35B2F003C3AD9 /* えー？.mp3 */,
+				D7D9B9161AF35B2F003C3AD9 /* え？（低音）.mp3 */,
+				D7D9B9171AF35B2F003C3AD9 /* おしまい？.mp3 */,
+				D7D9B9181AF35B2F003C3AD9 /* それだめじゃないです.mp3 */,
+				D7D9B9191AF35B2F003C3AD9 /* それ思った.mp3 */,
+				D7D9B91A1AF35B2F003C3AD9 /* な？何を言ってる？.mp3 */,
+				D7D9B91B1AF35B2F003C3AD9 /* はい！.mp3 */,
+				D7D9B91C1AF35B2F003C3AD9 /* ひゃぁー！.mp3 */,
+				D7D9B91D1AF35B2F003C3AD9 /* ふええ.mp3 */,
+				D7D9B91E1AF35B2F003C3AD9 /* ものすごく困る.mp3 */,
+				D7D9B91F1AF35B2F003C3AD9 /* わけわからん.mp3 */,
+				D7D9B9201AF35B2F003C3AD9 /* 何ですか.mp3 */,
+				D7D9B9211AF35B2F003C3AD9 /* 何のことです.mp3 */,
+				D7D9B9221AF35B2F003C3AD9 /* 何の再履修です.mp3 */,
+				D7D9B9231AF35B2F003C3AD9 /* 最終的に焼き鳥になるんですか？.mp3 */,
+				D7D9B9241AF35B2F003C3AD9 /* 無茶ぶりは.mp3 */,
+				D7D9B9251AF35B2F003C3AD9 /* 焼き鳥.mp3 */,
+				D7D9B9261AF35B2F003C3AD9 /* 私も頑張りますぅ.mp3 */,
+				D7D9B9271AF35B2F003C3AD9 /* 言えませんよ.mp3 */,
+				D7D9B9281AF35B2F003C3AD9 /* 頑張って下さい.mp3 */,
+				D7D9B9291AF35B2F003C3AD9 /* 食べられるんですか？.mp3 */,
+			);
+			path = "うまべ";
+			sourceTree = "<group>";
+		};
+		D7D9B92C1AF35B2F003C3AD9 /* 音声データ２ */ = {
+			isa = PBXGroup;
+			children = (
+				D7D9B92D1AF35B2F003C3AD9 /* ありがとうございます(嫌悪).m4a */,
+				D7D9B92E1AF35B2F003C3AD9 /* ありがとうございます(幸福感).m4a */,
+				D7D9B92F1AF35B2F003C3AD9 /* ありがとうございます(怒り).m4a */,
+				D7D9B9301AF35B2F003C3AD9 /* ありがとうございます(恐れ).m4a */,
+				D7D9B9311AF35B2F003C3AD9 /* ありがとうございます(悲しみ).m4a */,
+				D7D9B9321AF35B2F003C3AD9 /* ありがとうございます(驚き).m4a */,
+				D7D9B9331AF35B2F003C3AD9 /* いいえ(嫌悪).m4a */,
+				D7D9B9341AF35B2F003C3AD9 /* いいえ(幸福感).m4a */,
+				D7D9B9351AF35B2F003C3AD9 /* いいえ(怒り).m4a */,
+				D7D9B9361AF35B2F003C3AD9 /* いいえ(恐れ).m4a */,
+				D7D9B9371AF35B2F003C3AD9 /* いいえ(悲しみ).m4a */,
+				D7D9B9381AF35B2F003C3AD9 /* いいえ(驚き).m4a */,
+				D7D9B9391AF35B2F003C3AD9 /* いえ、そんなことないですよ(嫌悪).m4a */,
+				D7D9B93A1AF35B2F003C3AD9 /* いえ、そんなことないですよ(幸福感).m4a */,
+				D7D9B93B1AF35B2F003C3AD9 /* いえ、そんなことないですよ(怒り).m4a */,
+				D7D9B93C1AF35B2F003C3AD9 /* いえ、そんなことないですよ(恐れ).m4a */,
+				D7D9B93D1AF35B2F003C3AD9 /* いえ、そんなことないですよ(悲しみ).m4a */,
+				D7D9B93E1AF35B2F003C3AD9 /* いえ、そんなことないですよ(驚き).m4a */,
+				D7D9B93F1AF35B2F003C3AD9 /* おっしゃる通りです(嫌悪).m4a */,
+				D7D9B9401AF35B2F003C3AD9 /* おっしゃる通りです(幸福感).m4a */,
+				D7D9B9411AF35B2F003C3AD9 /* おっしゃる通りです(怒り).m4a */,
+				D7D9B9421AF35B2F003C3AD9 /* おっしゃる通りです(恐れ).m4a */,
+				D7D9B9431AF35B2F003C3AD9 /* おっしゃる通りです(悲しみ).m4a */,
+				D7D9B9441AF35B2F003C3AD9 /* おっしゃる通りです(驚き).m4a */,
+				D7D9B9451AF35B2F003C3AD9 /* さすがですね(嫌悪).m4a */,
+				D7D9B9461AF35B2F003C3AD9 /* さすがですね(幸福感).m4a */,
+				D7D9B9471AF35B2F003C3AD9 /* さすがですね(怒り).m4a */,
+				D7D9B9481AF35B2F003C3AD9 /* さすがですね(恐れ).m4a */,
+				D7D9B9491AF35B2F003C3AD9 /* さすがですね(悲しみ).m4a */,
+				D7D9B94A1AF35B2F003C3AD9 /* さすがですね(驚き).m4a */,
+				D7D9B94B1AF35B2F003C3AD9 /* すごいですね(嫌悪).m4a */,
+				D7D9B94C1AF35B2F003C3AD9 /* すごいですね(幸福感).m4a */,
+				D7D9B94D1AF35B2F003C3AD9 /* すごいですね(怒り).m4a */,
+				D7D9B94E1AF35B2F003C3AD9 /* すごいですね(恐れ).m4a */,
+				D7D9B94F1AF35B2F003C3AD9 /* すごいですね(悲しみ).m4a */,
+				D7D9B9501AF35B2F003C3AD9 /* すごいですね(驚き).m4a */,
+				D7D9B9511AF35B2F003C3AD9 /* すみません(嫌悪).m4a */,
+				D7D9B9521AF35B2F003C3AD9 /* すみません(幸福感).m4a */,
+				D7D9B9531AF35B2F003C3AD9 /* すみません(怒り).m4a */,
+				D7D9B9541AF35B2F003C3AD9 /* すみません(恐れ).m4a */,
+				D7D9B9551AF35B2F003C3AD9 /* すみません(悲しみ).m4a */,
+				D7D9B9561AF35B2F003C3AD9 /* すみません(驚き).m4a */,
+				D7D9B9571AF35B2F003C3AD9 /* ぜひおねがいします(嫌悪).m4a */,
+				D7D9B9581AF35B2F003C3AD9 /* ぜひおねがいします(幸福感).m4a */,
+				D7D9B9591AF35B2F003C3AD9 /* ぜひおねがいします(怒り).m4a */,
+				D7D9B95A1AF35B2F003C3AD9 /* ぜひおねがいします(恐れ).m4a */,
+				D7D9B95B1AF35B2F003C3AD9 /* ぜひおねがいします(悲しみ).m4a */,
+				D7D9B95C1AF35B2F003C3AD9 /* ぜひおねがいします(驚き).m4a */,
+				D7D9B95D1AF35B2F003C3AD9 /* はい(嫌悪).m4a */,
+				D7D9B95E1AF35B2F003C3AD9 /* はい(幸福感).m4a */,
+				D7D9B95F1AF35B2F003C3AD9 /* はい(怒り).m4a */,
+				D7D9B9601AF35B2F003C3AD9 /* はい(恐れ).m4a */,
+				D7D9B9611AF35B2F003C3AD9 /* はい(悲しみ).m4a */,
+				D7D9B9621AF35B2F003C3AD9 /* はい(驚き).m4a */,
+				D7D9B9631AF35B2F003C3AD9 /* ひどいですね(嫌悪).m4a */,
+				D7D9B9641AF35B2F003C3AD9 /* ひどいですね(幸福感).m4a */,
+				D7D9B9651AF35B2F003C3AD9 /* ひどいですね(怒り).m4a */,
+				D7D9B9661AF35B2F003C3AD9 /* ひどいですね(恐れ).m4a */,
+				D7D9B9671AF35B2F003C3AD9 /* ひどいですね(悲しみ).m4a */,
+				D7D9B9681AF35B2F003C3AD9 /* ひどいですね(驚き).m4a */,
+				D7D9B9691AF35B2F003C3AD9 /* 大丈夫？(嫌悪).m4a */,
+				D7D9B96A1AF35B2F003C3AD9 /* 大丈夫？(幸福感).m4a */,
+				D7D9B96B1AF35B2F003C3AD9 /* 大丈夫？(怒り).m4a */,
+				D7D9B96C1AF35B2F003C3AD9 /* 大丈夫？(恐れ).m4a */,
+				D7D9B96D1AF35B2F003C3AD9 /* 大丈夫？(悲しみ).m4a */,
+				D7D9B96E1AF35B2F003C3AD9 /* 大丈夫？(驚き).m4a */,
+				D7D9B96F1AF35B2F003C3AD9 /* 用事があるので失礼します(嫌悪).m4a */,
+				D7D9B9701AF35B2F003C3AD9 /* 用事があるので失礼します(幸福感).m4a */,
+				D7D9B9711AF35B2F003C3AD9 /* 用事があるので失礼します(怒り).m4a */,
+				D7D9B9721AF35B2F003C3AD9 /* 用事があるので失礼します(恐れ).m4a */,
+				D7D9B9731AF35B2F003C3AD9 /* 用事があるので失礼します(悲しみ).m4a */,
+				D7D9B9741AF35B2F003C3AD9 /* 用事があるので失礼します(驚き).m4a */,
+				D7D9B9751AF35B2F003C3AD9 /* 知りませんでした(嫌悪).m4a */,
+				D7D9B9761AF35B2F003C3AD9 /* 知りませんでした(幸福感).m4a */,
+				D7D9B9771AF35B2F003C3AD9 /* 知りませんでした(怒り).m4a */,
+				D7D9B9781AF35B2F003C3AD9 /* 知りませんでした(恐れ).m4a */,
+				D7D9B9791AF35B2F003C3AD9 /* 知りませんでした(悲しみ).m4a */,
+				D7D9B97A1AF35B2F003C3AD9 /* 知りませんでした(驚き).m4a */,
+				D7D9B97B1AF35B2F003C3AD9 /* 結構です(嫌悪).m4a */,
+				D7D9B97C1AF35B2F003C3AD9 /* 結構です(幸福感).m4a */,
+				D7D9B97D1AF35B2F003C3AD9 /* 結構です(怒り).m4a */,
+				D7D9B97E1AF35B2F003C3AD9 /* 結構です(恐れ).m4a */,
+				D7D9B97F1AF35B2F003C3AD9 /* 結構です(悲しみ).m4a */,
+				D7D9B9801AF35B2F003C3AD9 /* 結構です(驚き).m4a */,
+			);
+			path = "音声データ２";
+			sourceTree = "<group>";
+		};
+		D7D9B9811AF35B2F003C3AD9 /* 音声データ2 */ = {
+			isa = PBXGroup;
+			children = (
+				D7D9B9821AF35B2F003C3AD9 /* ありがとうございます(嫌悪).m4a */,
+				D7D9B9831AF35B2F003C3AD9 /* ありがとうございます(幸福感).m4a */,
+				D7D9B9841AF35B2F003C3AD9 /* ありがとうございます(怒り).m4a */,
+				D7D9B9851AF35B2F003C3AD9 /* ありがとうございます(恐れ).m4a */,
+				D7D9B9861AF35B2F003C3AD9 /* ありがとうございます(悲しみ).m4a */,
+				D7D9B9871AF35B2F003C3AD9 /* ありがとうございます(驚き).m4a */,
+				D7D9B9881AF35B2F003C3AD9 /* いいえ(嫌悪).m4a */,
+				D7D9B9891AF35B2F003C3AD9 /* いいえ(幸福感).m4a */,
+				D7D9B98A1AF35B2F003C3AD9 /* いいえ(怒り).m4a */,
+				D7D9B98B1AF35B2F003C3AD9 /* いいえ(恐れ).m4a */,
+				D7D9B98C1AF35B2F003C3AD9 /* いいえ(悲しみ).m4a */,
+				D7D9B98D1AF35B2F003C3AD9 /* いいえ(驚き).m4a */,
+				D7D9B98E1AF35B2F003C3AD9 /* いえ、そんなことないですよ(嫌悪).m4a */,
+				D7D9B98F1AF35B2F003C3AD9 /* いえ、そんなことないですよ(幸福感).m4a */,
+				D7D9B9901AF35B2F003C3AD9 /* いえ、そんなことないですよ(怒り).m4a */,
+				D7D9B9911AF35B2F003C3AD9 /* いえ、そんなことないですよ(恐れ).m4a */,
+				D7D9B9921AF35B2F003C3AD9 /* いえ、そんなことないですよ(悲しみ).m4a */,
+				D7D9B9931AF35B2F003C3AD9 /* いえ、そんなことないですよ(驚き).m4a */,
+				D7D9B9941AF35B2F003C3AD9 /* おっしゃる通りです(嫌悪).m4a */,
+				D7D9B9951AF35B2F003C3AD9 /* おっしゃる通りです(幸福感).m4a */,
+				D7D9B9961AF35B2F003C3AD9 /* おっしゃる通りです(怒り).m4a */,
+				D7D9B9971AF35B2F003C3AD9 /* おっしゃる通りです(恐れ).m4a */,
+				D7D9B9981AF35B2F003C3AD9 /* おっしゃる通りです(悲しみ).m4a */,
+				D7D9B9991AF35B2F003C3AD9 /* おっしゃる通りです(驚き).m4a */,
+				D7D9B99A1AF35B2F003C3AD9 /* さすがですね(嫌悪).m4a */,
+				D7D9B99B1AF35B2F003C3AD9 /* さすがですね(幸福感).m4a */,
+				D7D9B99C1AF35B2F003C3AD9 /* さすがですね(怒り).m4a */,
+				D7D9B99D1AF35B2F003C3AD9 /* さすがですね(恐れ).m4a */,
+				D7D9B99E1AF35B2F003C3AD9 /* さすがですね(悲しみ).m4a */,
+				D7D9B99F1AF35B2F003C3AD9 /* さすがですね(驚き).m4a */,
+				D7D9B9A01AF35B2F003C3AD9 /* すごいですね(嫌悪).m4a */,
+				D7D9B9A11AF35B2F003C3AD9 /* すごいですね(幸福感).m4a */,
+				D7D9B9A21AF35B2F003C3AD9 /* すごいですね(怒り).m4a */,
+				D7D9B9A31AF35B2F003C3AD9 /* すごいですね(恐れ).m4a */,
+				D7D9B9A41AF35B2F003C3AD9 /* すごいですね(悲しみ).m4a */,
+				D7D9B9A51AF35B2F003C3AD9 /* すごいですね(驚き).m4a */,
+				D7D9B9A61AF35B2F003C3AD9 /* すみません(嫌悪).m4a */,
+				D7D9B9A71AF35B2F003C3AD9 /* すみません(幸福感).m4a */,
+				D7D9B9A81AF35B2F003C3AD9 /* すみません(怒り).m4a */,
+				D7D9B9A91AF35B2F003C3AD9 /* すみません(恐れ).m4a */,
+				D7D9B9AA1AF35B2F003C3AD9 /* すみません(悲しみ).m4a */,
+				D7D9B9AB1AF35B2F003C3AD9 /* すみません(驚き).m4a */,
+				D7D9B9AC1AF35B2F003C3AD9 /* ぜひおねがいします(嫌悪).m4a */,
+				D7D9B9AD1AF35B2F003C3AD9 /* ぜひおねがいします(幸福感).m4a */,
+				D7D9B9AE1AF35B2F003C3AD9 /* ぜひおねがいします(怒り).m4a */,
+				D7D9B9AF1AF35B2F003C3AD9 /* ぜひおねがいします(恐れ).m4a */,
+				D7D9B9B01AF35B2F003C3AD9 /* ぜひおねがいします(悲しみ).m4a */,
+				D7D9B9B11AF35B2F003C3AD9 /* ぜひおねがいします(驚き).m4a */,
+				D7D9B9B21AF35B2F003C3AD9 /* はい(嫌悪).m4a */,
+				D7D9B9B31AF35B2F003C3AD9 /* はい(幸福感).m4a */,
+				D7D9B9B41AF35B2F003C3AD9 /* はい(怒り).m4a */,
+				D7D9B9B51AF35B2F003C3AD9 /* はい(恐れ).m4a */,
+				D7D9B9B61AF35B2F003C3AD9 /* はい(悲しみ).m4a */,
+				D7D9B9B71AF35B2F003C3AD9 /* はい(驚き).m4a */,
+				D7D9B9B81AF35B2F003C3AD9 /* ひどいですね(嫌悪).m4a */,
+				D7D9B9B91AF35B2F003C3AD9 /* ひどいですね(幸福感).m4a */,
+				D7D9B9BA1AF35B2F003C3AD9 /* ひどいですね(怒り).m4a */,
+				D7D9B9BB1AF35B2F003C3AD9 /* ひどいですね(恐れ).m4a */,
+				D7D9B9BC1AF35B2F003C3AD9 /* ひどいですね(悲しみ).m4a */,
+				D7D9B9BD1AF35B2F003C3AD9 /* ひどいですね(驚き).m4a */,
+				D7D9B9BE1AF35B2F003C3AD9 /* 大丈夫？(嫌悪).m4a */,
+				D7D9B9BF1AF35B2F003C3AD9 /* 大丈夫？(幸福感).m4a */,
+				D7D9B9C01AF35B2F003C3AD9 /* 大丈夫？(怒り).m4a */,
+				D7D9B9C11AF35B2F003C3AD9 /* 大丈夫？(恐れ).m4a */,
+				D7D9B9C21AF35B2F003C3AD9 /* 大丈夫？(悲しみ).m4a */,
+				D7D9B9C31AF35B2F003C3AD9 /* 大丈夫？(驚き).m4a */,
+				D7D9B9C41AF35B2F003C3AD9 /* 用事があるので失礼します(嫌悪).m4a */,
+				D7D9B9C51AF35B2F003C3AD9 /* 用事があるので失礼します(幸福感).m4a */,
+				D7D9B9C61AF35B2F003C3AD9 /* 用事があるので失礼します(怒り).m4a */,
+				D7D9B9C71AF35B2F003C3AD9 /* 用事があるので失礼します(恐れ).m4a */,
+				D7D9B9C81AF35B2F003C3AD9 /* 用事があるので失礼します(悲しみ).m4a */,
+				D7D9B9C91AF35B2F003C3AD9 /* 用事があるので失礼します(驚き).m4a */,
+				D7D9B9CA1AF35B2F003C3AD9 /* 知りませんでした(嫌悪).m4a */,
+				D7D9B9CB1AF35B2F003C3AD9 /* 知りませんでした(幸福感).m4a */,
+				D7D9B9CC1AF35B2F003C3AD9 /* 知りませんでした(怒り).m4a */,
+				D7D9B9CD1AF35B2F003C3AD9 /* 知りませんでした(恐れ).m4a */,
+				D7D9B9CE1AF35B2F003C3AD9 /* 知りませんでした(悲しみ).m4a */,
+				D7D9B9CF1AF35B2F003C3AD9 /* 知りませんでした(驚き).m4a */,
+				D7D9B9D01AF35B2F003C3AD9 /* 結構です(嫌悪).m4a */,
+				D7D9B9D11AF35B2F003C3AD9 /* 結構です(幸福感).m4a */,
+				D7D9B9D21AF35B2F003C3AD9 /* 結構です(怒り).m4a */,
+				D7D9B9D31AF35B2F003C3AD9 /* 結構です(恐れ).m4a */,
+				D7D9B9D41AF35B2F003C3AD9 /* 結構です(悲しみ).m4a */,
+				D7D9B9D51AF35B2F003C3AD9 /* 結構です(驚き).m4a */,
+			);
+			name = "音声データ2";
+			path = "../../../../../Downloads/アーカイブ/音声データ２";
+			sourceTree = "<group>";
+		};
+		D7D9B9D61AF35B2F003C3AD9 /* 録音データ */ = {
+			isa = PBXGroup;
+			children = (
+				D7D9B9D71AF35B2F003C3AD9 /* voice.txt */,
+				D7D9B9D81AF35B2F003C3AD9 /* あと少しですね.m4a */,
+				D7D9B9D91AF35B2F003C3AD9 /* ありがとうございます.m4a */,
+				D7D9B9DA1AF35B2F003C3AD9 /* いえ、そんなことないですよ.m4a */,
+				D7D9B9DB1AF35B2F003C3AD9 /* いやぁ.m4a */,
+				D7D9B9DC1AF35B2F003C3AD9 /* いろいろありますよね.m4a */,
+				D7D9B9DD1AF35B2F003C3AD9 /* うらやましいです.m4a */,
+				D7D9B9DE1AF35B2F003C3AD9 /* おっしゃる通りです.m4a */,
+				D7D9B9DF1AF35B2F003C3AD9 /* お休みになってください.m4a */,
+				D7D9B9E01AF35B2F003C3AD9 /* お知り合いですか？.m4a */,
+				D7D9B9E11AF35B2F003C3AD9 /* きっかけは？.m4a */,
+				D7D9B9E21AF35B2F003C3AD9 /* きっとそうします.m4a */,
+				D7D9B9E31AF35B2F003C3AD9 /* ここまで来たらとことんやりましょう.m4a */,
+				D7D9B9E41AF35B2F003C3AD9 /* ご存知ですか？.m4a */,
+				D7D9B9E51AF35B2F003C3AD9 /* さすがですね.m4a */,
+				D7D9B9E61AF35B2F003C3AD9 /* すごいですね.m4a */,
+				D7D9B9E71AF35B2F003C3AD9 /* すごく面白いです.m4a */,
+				D7D9B9E81AF35B2F003C3AD9 /* すみません.m4a */,
+				D7D9B9E91AF35B2F003C3AD9 /* ぜひおねがいします.m4a */,
+				D7D9B9EA1AF35B2F003C3AD9 /* そうすればいいのか.m4a */,
+				D7D9B9EB1AF35B2F003C3AD9 /* ちょっと困るんです.m4a */,
+				D7D9B9EC1AF35B2F003C3AD9 /* できますか？.m4a */,
+				D7D9B9ED1AF35B2F003C3AD9 /* とても敵いません.m4a */,
+				D7D9B9EE1AF35B2F003C3AD9 /* とても真似できません.m4a */,
+				D7D9B9EF1AF35B2F003C3AD9 /* どうでしたか？.m4a */,
+				D7D9B9F01AF35B2F003C3AD9 /* どこかに行かれましたか？.m4a */,
+				D7D9B9F11AF35B2F003C3AD9 /* どこがポイントになりますか？.m4a */,
+				D7D9B9F21AF35B2F003C3AD9 /* どこまで話しましたか？.m4a */,
+				D7D9B9F31AF35B2F003C3AD9 /* どちらを選びますか？.m4a */,
+				D7D9B9F41AF35B2F003C3AD9 /* なぜそうなるのですか？.m4a */,
+				D7D9B9F51AF35B2F003C3AD9 /* ひどいですね.m4a */,
+				D7D9B9F61AF35B2F003C3AD9 /* まだ考え中です.m4a */,
+				D7D9B9F71AF35B2F003C3AD9 /* また今度聞かせてください.m4a */,
+				D7D9B9F81AF35B2F003C3AD9 /* もしよろしければ.m4a */,
+				D7D9B9F91AF35B2F003C3AD9 /* よくがんばっていますね.m4a */,
+				D7D9B9FA1AF35B2F003C3AD9 /* よく気付きましたね.m4a */,
+				D7D9B9FB1AF35B2F003C3AD9 /* コツはありますか？.m4a */,
+				D7D9B9FC1AF35B2F003C3AD9 /* ポイントを整理しましょう.m4a */,
+				D7D9B9FD1AF35B2F003C3AD9 /* 一言で言うと？.m4a */,
+				D7D9B9FE1AF35B2F003C3AD9 /* 人見知りなんです.m4a */,
+				D7D9B9FF1AF35B2F003C3AD9 /* 他にもありますか？.m4a */,
+				D7D9BA001AF35B2F003C3AD9 /* 何がいいと思いますか？.m4a */,
+				D7D9BA011AF35B2F003C3AD9 /* 何という種類ですか？.m4a */,
+				D7D9BA021AF35B2F003C3AD9 /* 何人いらっしゃいますか？.m4a */,
+				D7D9BA031AF35B2F003C3AD9 /* 何時まででしたっけ？.m4a */,
+				D7D9BA041AF35B2F003C3AD9 /* 便利ですね.m4a */,
+				D7D9BA051AF35B2F003C3AD9 /* 初めてですか？.m4a */,
+				D7D9BA061AF35B2F003C3AD9 /* 前から聞きたかったのですが.m4a */,
+				D7D9BA071AF35B2F003C3AD9 /* 参りました.m4a */,
+				D7D9BA081AF35B2F003C3AD9 /* 大丈夫？.m4a */,
+				D7D9BA091AF35B2F003C3AD9 /* 大変でしたね.m4a */,
+				D7D9BA0A1AF35B30003C3AD9 /* 嫌ならいいんだけど.m4a */,
+				D7D9BA0B1AF35B30003C3AD9 /* 得意ですか？.m4a */,
+				D7D9BA0C1AF35B30003C3AD9 /* 意外です.m4a */,
+				D7D9BA0D1AF35B30003C3AD9 /* 放っておいてよ.m4a */,
+				D7D9BA0E1AF35B30003C3AD9 /* 教えてもらえますか？.m4a */,
+				D7D9BA0F1AF35B30003C3AD9 /* 最高でどれくらいですか？.m4a */,
+				D7D9BA101AF35B30003C3AD9 /* 毎日続けていることはありますか？.m4a */,
+				D7D9BA111AF35B30003C3AD9 /* 用事があるので失礼します.m4a */,
+				D7D9BA121AF35B30003C3AD9 /* 知りませんでした.m4a */,
+				D7D9BA131AF35B30003C3AD9 /* 私には思いつきません.m4a */,
+				D7D9BA141AF35B30003C3AD9 /* 素敵ですね.m4a */,
+				D7D9BA151AF35B30003C3AD9 /* 結構です.m4a */,
+				D7D9BA161AF35B30003C3AD9 /* 考えてみましょう.m4a */,
+				D7D9BA171AF35B30003C3AD9 /* 興味はありますか？.m4a */,
+				D7D9BA181AF35B30003C3AD9 /* 言われてみれば.m4a */,
+			);
+			name = "録音データ";
+			path = "../../../../../Downloads/アーカイブ/録音データ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +1441,7 @@
 				TargetAttributes = {
 					D713261F1AF347BF003A5932 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = C3HXFWSXD4;
 					};
 					D71326341AF347BF003A5932 = {
 						CreatedOnToolsVersion = 6.2;
@@ -192,9 +1473,399 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7D9BA4E1AF35B30003C3AD9 /* いえ、そんなことないですよ(驚き).m4a in Resources */,
+				D7D9BA3A1AF35B30003C3AD9 /* 食べられるんですか？.mp3 in Resources */,
+				D7D9BAEF1AF35B30003C3AD9 /* ひどいですね(悲しみ).m4a in Resources */,
+				D7D9BB7A1AF35B30003C3AD9 /* なぜそうなるのですか？.m4a in Resources */,
+				D7D9BB7E1AF35B30003C3AD9 /* もしよろしければ.m4a in Resources */,
+				D7D9BA531AF35B30003C3AD9 /* おっしゃる通りです(悲しみ).m4a in Resources */,
+				D7D9BAE91AF35B30003C3AD9 /* はい(悲しみ).m4a in Resources */,
+				D7D9BA931AF35B30003C3AD9 /* あー調べてました.mp3 in Resources */,
+				D7D9BB431AF35B30003C3AD9 /* ひどいですね(悲しみ).m4a in Resources */,
+				D7D9BA421AF35B30003C3AD9 /* ありがとうございます(驚き).m4a in Resources */,
+				D7D9BA9A1AF35B30003C3AD9 /* え.mp3 in Resources */,
+				D7D9BA361AF35B30003C3AD9 /* 焼き鳥.mp3 in Resources */,
+				D7D9BADC1AF35B30003C3AD9 /* すみません(恐れ).m4a in Resources */,
+				D7D9BAB21AF35B30003C3AD9 /* 食べられるんですか？.mp3 in Resources */,
+				D7D9BB781AF35B30003C3AD9 /* どこまで話しましたか？.m4a in Resources */,
+				D7D9BA191AF35B30003C3AD9 /* kameone12.html in Resources */,
+				D7D9BB971AF35B30003C3AD9 /* 用事があるので失礼します.m4a in Resources */,
+				D7D9BAF11AF35B30003C3AD9 /* 大丈夫？(嫌悪).m4a in Resources */,
+				D7D9BA5C1AF35B30003C3AD9 /* すごいですね(幸福感).m4a in Resources */,
+				D7D9BADD1AF35B30003C3AD9 /* すみません(悲しみ).m4a in Resources */,
+				D7D9BB3D1AF35B30003C3AD9 /* はい(悲しみ).m4a in Resources */,
+				D7D9BB591AF35B30003C3AD9 /* 結構です(怒り).m4a in Resources */,
+				D7D9BA891AF35B30003C3AD9 /* 知りませんでした(悲しみ).m4a in Resources */,
+				D7D9BAEA1AF35B30003C3AD9 /* はい(驚き).m4a in Resources */,
+				D7D9BAD21AF35B30003C3AD9 /* さすがですね(驚き).m4a in Resources */,
+				D7D9BB801AF35B30003C3AD9 /* よく気付きましたね.m4a in Resources */,
+				D7D9BA731AF35B30003C3AD9 /* ひどいですね(嫌悪).m4a in Resources */,
+				D7D9BB311AF35B30003C3AD9 /* すみません(悲しみ).m4a in Resources */,
+				D7D9BA331AF35B30003C3AD9 /* 何の再履修です.mp3 in Resources */,
+				D7D9BAB41AF35B30003C3AD9 /* 音声データ.html in Resources */,
+				D7D9BB681AF35B30003C3AD9 /* きっとそうします.m4a in Resources */,
+				D7D9BA751AF35B30003C3AD9 /* ひどいですね(怒り).m4a in Resources */,
+				D7D9BB381AF35B30003C3AD9 /* ぜひおねがいします(驚き).m4a in Resources */,
+				D7D9BA8B1AF35B30003C3AD9 /* 結構です(嫌悪).m4a in Resources */,
+				D7D9BB6D1AF35B30003C3AD9 /* すごく面白いです.m4a in Resources */,
+				D7D9BAE11AF35B30003C3AD9 /* ぜひおねがいします(怒り).m4a in Resources */,
+				D7D9BB511AF35B30003C3AD9 /* 知りませんでした(嫌悪).m4a in Resources */,
+				D7D9BB441AF35B30003C3AD9 /* ひどいですね(驚き).m4a in Resources */,
+				D7D9BB191AF35B30003C3AD9 /* いえ、そんなことないですよ(悲しみ).m4a in Resources */,
+				D7D9BA301AF35B30003C3AD9 /* わけわからん.mp3 in Resources */,
+				D7D9BA381AF35B30003C3AD9 /* 言えませんよ.mp3 in Resources */,
+				D7D9BACE1AF35B30003C3AD9 /* さすがですね(幸福感).m4a in Resources */,
+				D7D9BA801AF35B30003C3AD9 /* 用事があるので失礼します(幸福感).m4a in Resources */,
+				D7D9BACF1AF35B30003C3AD9 /* さすがですね(怒り).m4a in Resources */,
+				D7D9BB401AF35B30003C3AD9 /* ひどいですね(幸福感).m4a in Resources */,
+				D7D9BB051AF35B30003C3AD9 /* 結構です(怒り).m4a in Resources */,
+				D7D9BA581AF35B30003C3AD9 /* さすがですね(恐れ).m4a in Resources */,
+				D7D9BA9D1AF35B30003C3AD9 /* えー！.mp3 in Resources */,
+				D7D9BA651AF35B30003C3AD9 /* すみません(悲しみ).m4a in Resources */,
+				D7D9BA841AF35B30003C3AD9 /* 用事があるので失礼します(驚き).m4a in Resources */,
+				D7D9BA1A1AF35B30003C3AD9 /* Uma.jpg in Resources */,
+				D7D9BA5B1AF35B30003C3AD9 /* すごいですね(嫌悪).m4a in Resources */,
+				D7D9BA4D1AF35B30003C3AD9 /* いえ、そんなことないですよ(悲しみ).m4a in Resources */,
+				D7D9BA501AF35B30003C3AD9 /* おっしゃる通りです(幸福感).m4a in Resources */,
+				D7D9BA591AF35B30003C3AD9 /* さすがですね(悲しみ).m4a in Resources */,
+				D7D9BAF01AF35B30003C3AD9 /* ひどいですね(驚き).m4a in Resources */,
+				D7D9BA2D1AF35B30003C3AD9 /* ひゃぁー！.mp3 in Resources */,
+				D7D9BB1A1AF35B30003C3AD9 /* いえ、そんなことないですよ(驚き).m4a in Resources */,
+				D7D9BAD41AF35B30003C3AD9 /* すごいですね(幸福感).m4a in Resources */,
+				D7D9BB921AF35B30003C3AD9 /* 意外です.m4a in Resources */,
+				D7D9BB6F1AF35B30003C3AD9 /* ぜひおねがいします.m4a in Resources */,
+				D7D9BA491AF35B30003C3AD9 /* いえ、そんなことないですよ(嫌悪).m4a in Resources */,
+				D7D9BA661AF35B30003C3AD9 /* すみません(驚き).m4a in Resources */,
+				D7D9BB071AF35B30003C3AD9 /* 結構です(悲しみ).m4a in Resources */,
+				D7D9BB8E1AF35B30003C3AD9 /* 大丈夫？.m4a in Resources */,
+				D7D9BA771AF35B30003C3AD9 /* ひどいですね(悲しみ).m4a in Resources */,
+				D7D9BAD91AF35B30003C3AD9 /* すみません(嫌悪).m4a in Resources */,
+				D7D9BA511AF35B30003C3AD9 /* おっしゃる通りです(怒り).m4a in Resources */,
+				D7D9BB2B1AF35B30003C3AD9 /* すごいですね(悲しみ).m4a in Resources */,
+				D7D9BB231AF35B30003C3AD9 /* さすがですね(怒り).m4a in Resources */,
+				D7D9BB5C1AF35B30003C3AD9 /* 結構です(驚き).m4a in Resources */,
+				D7D9BA911AF35B30003C3AD9 /* kameone12.html in Resources */,
+				D7D9BB021AF35B30003C3AD9 /* 知りませんでした(驚き).m4a in Resources */,
+				D7D9BB701AF35B30003C3AD9 /* そうすればいいのか.m4a in Resources */,
+				D7D9BB341AF35B30003C3AD9 /* ぜひおねがいします(幸福感).m4a in Resources */,
+				D7D9BAB91AF35B30003C3AD9 /* ありがとうございます(悲しみ).m4a in Resources */,
+				D7D9BB8A1AF35B30003C3AD9 /* 便利ですね.m4a in Resources */,
+				D7D9BB841AF35B30003C3AD9 /* 人見知りなんです.m4a in Resources */,
 				D713262B1AF347BF003A5932 /* Main.storyboard in Resources */,
+				D7D9BA8D1AF35B30003C3AD9 /* 結構です(怒り).m4a in Resources */,
+				D7D9BA521AF35B30003C3AD9 /* おっしゃる通りです(恐れ).m4a in Resources */,
+				D7D9BB791AF35B30003C3AD9 /* どちらを選びますか？.m4a in Resources */,
+				D7D9BB2E1AF35B30003C3AD9 /* すみません(幸福感).m4a in Resources */,
+				D7D9BA351AF35B30003C3AD9 /* 無茶ぶりは.mp3 in Resources */,
+				D7D9BA211AF35B30003C3AD9 /* うまべ.mp3 in Resources */,
+				D7D9BB731AF35B30003C3AD9 /* とても敵いません.m4a in Resources */,
+				D7D9BA901AF35B30003C3AD9 /* 結構です(驚き).m4a in Resources */,
+				D7D9BAC21AF35B30003C3AD9 /* いえ、そんなことないですよ(幸福感).m4a in Resources */,
+				D7D9BA1B1AF35B30003C3AD9 /* あー調べてました.mp3 in Resources */,
+				D7D9BB881AF35B30003C3AD9 /* 何人いらっしゃいますか？.m4a in Resources */,
+				D7D9BA881AF35B30003C3AD9 /* 知りませんでした(恐れ).m4a in Resources */,
+				D7D9BB5A1AF35B30003C3AD9 /* 結構です(恐れ).m4a in Resources */,
+				D7D9BB351AF35B30003C3AD9 /* ぜひおねがいします(怒り).m4a in Resources */,
+				D7D9BB2D1AF35B30003C3AD9 /* すみません(嫌悪).m4a in Resources */,
+				D7D9BB211AF35B30003C3AD9 /* さすがですね(嫌悪).m4a in Resources */,
+				D7D9BB111AF35B30003C3AD9 /* いいえ(怒り).m4a in Resources */,
+				D7D9BB2C1AF35B30003C3AD9 /* すごいですね(驚き).m4a in Resources */,
+				D7D9BB151AF35B30003C3AD9 /* いえ、そんなことないですよ(嫌悪).m4a in Resources */,
+				D7D9BB501AF35B30003C3AD9 /* 用事があるので失礼します(驚き).m4a in Resources */,
+				D7D9BACB1AF35B30003C3AD9 /* おっしゃる通りです(悲しみ).m4a in Resources */,
+				D7D9BA9B1AF35B30003C3AD9 /* えへへ.mp3 in Resources */,
+				D7D9BB5B1AF35B30003C3AD9 /* 結構です(悲しみ).m4a in Resources */,
+				D7D9BAA71AF35B30003C3AD9 /* ものすごく困る.mp3 in Resources */,
+				D7D9BB6C1AF35B30003C3AD9 /* すごいですね.m4a in Resources */,
+				D7D9BB641AF35B30003C3AD9 /* おっしゃる通りです.m4a in Resources */,
+				D7D9BA9F1AF35B30003C3AD9 /* え？（低音）.mp3 in Resources */,
+				D7D9BABA1AF35B30003C3AD9 /* ありがとうございます(驚き).m4a in Resources */,
+				D7D9BA471AF35B30003C3AD9 /* いいえ(悲しみ).m4a in Resources */,
+				D7D9BB2F1AF35B30003C3AD9 /* すみません(怒り).m4a in Resources */,
+				D7D9BA741AF35B30003C3AD9 /* ひどいですね(幸福感).m4a in Resources */,
+				D7D9BA7E1AF35B30003C3AD9 /* 大丈夫？(驚き).m4a in Resources */,
+				D7D9BAC81AF35B30003C3AD9 /* おっしゃる通りです(幸福感).m4a in Resources */,
+				D7D9BAAD1AF35B30003C3AD9 /* 無茶ぶりは.mp3 in Resources */,
+				D7D9BAD01AF35B30003C3AD9 /* さすがですね(恐れ).m4a in Resources */,
+				D7D9BAD51AF35B30003C3AD9 /* すごいですね(怒り).m4a in Resources */,
+				D7D9BB4A1AF35B30003C3AD9 /* 大丈夫？(驚き).m4a in Resources */,
+				D7D9BB8D1AF35B30003C3AD9 /* 参りました.m4a in Resources */,
+				D7D9BA341AF35B30003C3AD9 /* 最終的に焼き鳥になるんですか？.mp3 in Resources */,
+				D7D9BAF31AF35B30003C3AD9 /* 大丈夫？(怒り).m4a in Resources */,
+				D7D9BB2A1AF35B30003C3AD9 /* すごいですね(恐れ).m4a in Resources */,
+				D7D9BB9E1AF35B30003C3AD9 /* 言われてみれば.m4a in Resources */,
+				D7D9BA791AF35B30003C3AD9 /* 大丈夫？(嫌悪).m4a in Resources */,
+				D7D9BB251AF35B30003C3AD9 /* さすがですね(悲しみ).m4a in Resources */,
+				D7D9BA3F1AF35B30003C3AD9 /* ありがとうございます(怒り).m4a in Resources */,
+				D7D9BAAA1AF35B30003C3AD9 /* 何のことです.mp3 in Resources */,
+				D7D9BAE71AF35B30003C3AD9 /* はい(怒り).m4a in Resources */,
+				D7D9BA621AF35B30003C3AD9 /* すみません(幸福感).m4a in Resources */,
+				D7D9BA861AF35B30003C3AD9 /* 知りませんでした(幸福感).m4a in Resources */,
+				D7D9BB811AF35B30003C3AD9 /* コツはありますか？.m4a in Resources */,
+				D7D9BAE01AF35B30003C3AD9 /* ぜひおねがいします(幸福感).m4a in Resources */,
+				D7D9BAFF1AF35B30003C3AD9 /* 知りませんでした(怒り).m4a in Resources */,
+				D7D9BB481AF35B30003C3AD9 /* 大丈夫？(恐れ).m4a in Resources */,
+				D7D9BB551AF35B30003C3AD9 /* 知りませんでした(悲しみ).m4a in Resources */,
+				D7D9BA8A1AF35B30003C3AD9 /* 知りませんでした(驚き).m4a in Resources */,
+				D7D9BB911AF35B30003C3AD9 /* 得意ですか？.m4a in Resources */,
+				D7D9BB331AF35B30003C3AD9 /* ぜひおねがいします(嫌悪).m4a in Resources */,
+				D7D9BB561AF35B30003C3AD9 /* 知りませんでした(驚き).m4a in Resources */,
+				D7D9BB321AF35B30003C3AD9 /* すみません(驚き).m4a in Resources */,
+				D7D9BAF51AF35B30003C3AD9 /* 大丈夫？(悲しみ).m4a in Resources */,
+				D7D9BB821AF35B30003C3AD9 /* ポイントを整理しましょう.m4a in Resources */,
+				D7D9BB6A1AF35B30003C3AD9 /* ご存知ですか？.m4a in Resources */,
+				D7D9BB571AF35B30003C3AD9 /* 結構です(嫌悪).m4a in Resources */,
+				D7D9BB3A1AF35B30003C3AD9 /* はい(幸福感).m4a in Resources */,
+				D7D9BA1F1AF35B30003C3AD9 /* いやいや.mp3 in Resources */,
+				D7D9BB711AF35B30003C3AD9 /* ちょっと困るんです.m4a in Resources */,
+				D7D9BA3E1AF35B30003C3AD9 /* ありがとうございます(幸福感).m4a in Resources */,
+				D7D9BA291AF35B30003C3AD9 /* それだめじゃないです.mp3 in Resources */,
+				D7D9BAC11AF35B30003C3AD9 /* いえ、そんなことないですよ(嫌悪).m4a in Resources */,
+				D7D9BA981AF35B30003C3AD9 /* いやいやいやいや.mp3 in Resources */,
+				D7D9BAD61AF35B30003C3AD9 /* すごいですね(恐れ).m4a in Resources */,
+				D7D9BB721AF35B30003C3AD9 /* できますか？.m4a in Resources */,
+				D7D9BB011AF35B30003C3AD9 /* 知りませんでした(悲しみ).m4a in Resources */,
+				D7D9BB6B1AF35B30003C3AD9 /* さすがですね.m4a in Resources */,
+				D7D9BB0B1AF35B30003C3AD9 /* ありがとうございます(怒り).m4a in Resources */,
+				D7D9BB3F1AF35B30003C3AD9 /* ひどいですね(嫌悪).m4a in Resources */,
+				D7D9BB541AF35B30003C3AD9 /* 知りませんでした(恐れ).m4a in Resources */,
+				D7D9BB4D1AF35B30003C3AD9 /* 用事があるので失礼します(怒り).m4a in Resources */,
+				D7D9BA701AF35B30003C3AD9 /* はい(恐れ).m4a in Resources */,
+				D7D9BB461AF35B30003C3AD9 /* 大丈夫？(幸福感).m4a in Resources */,
+				D7D9BB4B1AF35B30003C3AD9 /* 用事があるので失礼します(嫌悪).m4a in Resources */,
+				D7D9BB7F1AF35B30003C3AD9 /* よくがんばっていますね.m4a in Resources */,
+				D7D9BA221AF35B30003C3AD9 /* え.mp3 in Resources */,
+				D7D9BA2C1AF35B30003C3AD9 /* はい！.mp3 in Resources */,
+				D7D9BA8E1AF35B30003C3AD9 /* 結構です(恐れ).m4a in Resources */,
+				D7D9BA441AF35B30003C3AD9 /* いいえ(幸福感).m4a in Resources */,
+				D7D9BAE41AF35B30003C3AD9 /* ぜひおねがいします(驚き).m4a in Resources */,
+				D7D9BA6B1AF35B30003C3AD9 /* ぜひおねがいします(悲しみ).m4a in Resources */,
+				D7D9BB451AF35B30003C3AD9 /* 大丈夫？(嫌悪).m4a in Resources */,
+				D7D9BB531AF35B30003C3AD9 /* 知りませんでした(怒り).m4a in Resources */,
+				D7D9BAB01AF35B30003C3AD9 /* 言えませんよ.mp3 in Resources */,
+				D7D9BB871AF35B30003C3AD9 /* 何という種類ですか？.m4a in Resources */,
+				D7D9BAB71AF35B30003C3AD9 /* ありがとうございます(怒り).m4a in Resources */,
+				D7D9BAC91AF35B30003C3AD9 /* おっしゃる通りです(怒り).m4a in Resources */,
+				D7D9BA261AF35B30003C3AD9 /* えー？.mp3 in Resources */,
+				D7D9BAF71AF35B30003C3AD9 /* 用事があるので失礼します(嫌悪).m4a in Resources */,
+				D7D9BA551AF35B30003C3AD9 /* さすがですね(嫌悪).m4a in Resources */,
+				D7D9BAFC1AF35B30003C3AD9 /* 用事があるので失礼します(驚き).m4a in Resources */,
+				D7D9BB0F1AF35B30003C3AD9 /* いいえ(嫌悪).m4a in Resources */,
+				D7D9BB491AF35B30003C3AD9 /* 大丈夫？(悲しみ).m4a in Resources */,
+				D7D9BABB1AF35B30003C3AD9 /* いいえ(嫌悪).m4a in Resources */,
+				D7D9BABF1AF35B30003C3AD9 /* いいえ(悲しみ).m4a in Resources */,
+				D7D9BB751AF35B30003C3AD9 /* どうでしたか？.m4a in Resources */,
+				D7D9BB851AF35B30003C3AD9 /* 他にもありますか？.m4a in Resources */,
+				D7D9BA5D1AF35B30003C3AD9 /* すごいですね(怒り).m4a in Resources */,
+				D7D9BB1F1AF35B30003C3AD9 /* おっしゃる通りです(悲しみ).m4a in Resources */,
+				D7D9BB961AF35B30003C3AD9 /* 毎日続けていることはありますか？.m4a in Resources */,
+				D7D9BB1C1AF35B30003C3AD9 /* おっしゃる通りです(幸福感).m4a in Resources */,
+				D7D9BA231AF35B30003C3AD9 /* えへへ.mp3 in Resources */,
+				D7D9BA821AF35B30003C3AD9 /* 用事があるので失礼します(恐れ).m4a in Resources */,
+				D7D9BA2B1AF35B30003C3AD9 /* な？何を言ってる？.mp3 in Resources */,
+				D7D9BB941AF35B30003C3AD9 /* 教えてもらえますか？.m4a in Resources */,
+				D7D9BA7C1AF35B30003C3AD9 /* 大丈夫？(恐れ).m4a in Resources */,
+				D7D9BA451AF35B30003C3AD9 /* いいえ(怒り).m4a in Resources */,
+				D7D9BAEB1AF35B30003C3AD9 /* ひどいですね(嫌悪).m4a in Resources */,
+				D7D9BB411AF35B30003C3AD9 /* ひどいですね(怒り).m4a in Resources */,
+				D7D9BB741AF35B30003C3AD9 /* とても真似できません.m4a in Resources */,
+				D7D9BAE21AF35B30003C3AD9 /* ぜひおねがいします(恐れ).m4a in Resources */,
+				D7D9BA281AF35B30003C3AD9 /* おしまい？.mp3 in Resources */,
+				D7D9BAE61AF35B30003C3AD9 /* はい(幸福感).m4a in Resources */,
+				D7D9BA691AF35B30003C3AD9 /* ぜひおねがいします(怒り).m4a in Resources */,
+				D7D9BB3E1AF35B30003C3AD9 /* はい(驚き).m4a in Resources */,
+				D7D9BB651AF35B30003C3AD9 /* お休みになってください.m4a in Resources */,
+				D7D9BA851AF35B30003C3AD9 /* 知りませんでした(嫌悪).m4a in Resources */,
+				D7D9BAF81AF35B30003C3AD9 /* 用事があるので失礼します(幸福感).m4a in Resources */,
+				D7D9BA201AF35B30003C3AD9 /* いやいやいやいや.mp3 in Resources */,
 				D71326301AF347BF003A5932 /* LaunchScreen.xib in Resources */,
+				D7D9BAB31AF35B30003C3AD9 /* うまべ感情.html in Resources */,
+				D7D9BAA51AF35B30003C3AD9 /* ひゃぁー！.mp3 in Resources */,
+				D7D9BB5D1AF35B30003C3AD9 /* voice.txt in Resources */,
+				D7D9BA271AF35B30003C3AD9 /* え？（低音）.mp3 in Resources */,
+				D7D9BA941AF35B30003C3AD9 /* いえぇぇえ.mp3 in Resources */,
+				D7D9BA5E1AF35B30003C3AD9 /* すごいですね(恐れ).m4a in Resources */,
+				D7D9BB221AF35B30003C3AD9 /* さすがですね(幸福感).m4a in Resources */,
+				D7D9BB361AF35B30003C3AD9 /* ぜひおねがいします(恐れ).m4a in Resources */,
+				D7D9BB091AF35B30003C3AD9 /* ありがとうございます(嫌悪).m4a in Resources */,
+				D7D9BB131AF35B30003C3AD9 /* いいえ(悲しみ).m4a in Resources */,
+				D7D9BAD71AF35B30003C3AD9 /* すごいですね(悲しみ).m4a in Resources */,
+				D7D9BAAE1AF35B30003C3AD9 /* 焼き鳥.mp3 in Resources */,
+				D7D9BB081AF35B30003C3AD9 /* 結構です(驚き).m4a in Resources */,
+				D7D9BB031AF35B30003C3AD9 /* 結構です(嫌悪).m4a in Resources */,
+				D7D9BA411AF35B30003C3AD9 /* ありがとうございます(悲しみ).m4a in Resources */,
+				D7D9BB891AF35B30003C3AD9 /* 何時まででしたっけ？.m4a in Resources */,
+				D7D9BA6E1AF35B30003C3AD9 /* はい(幸福感).m4a in Resources */,
+				D7D9BB581AF35B30003C3AD9 /* 結構です(幸福感).m4a in Resources */,
+				D7D9BA991AF35B30003C3AD9 /* うまべ.mp3 in Resources */,
+				D7D9BAB81AF35B30003C3AD9 /* ありがとうございます(恐れ).m4a in Resources */,
+				D7D9BA7A1AF35B30003C3AD9 /* 大丈夫？(幸福感).m4a in Resources */,
+				D7D9BAE51AF35B30003C3AD9 /* はい(嫌悪).m4a in Resources */,
+				D7D9BB671AF35B30003C3AD9 /* きっかけは？.m4a in Resources */,
+				D7D9BAF21AF35B30003C3AD9 /* 大丈夫？(幸福感).m4a in Resources */,
+				D7D9BA761AF35B30003C3AD9 /* ひどいですね(恐れ).m4a in Resources */,
+				D7D9BA2F1AF35B30003C3AD9 /* ものすごく困る.mp3 in Resources */,
+				D7D9BB241AF35B30003C3AD9 /* さすがですね(恐れ).m4a in Resources */,
+				D7D9BB0C1AF35B30003C3AD9 /* ありがとうございます(恐れ).m4a in Resources */,
+				D7D9BAFB1AF35B30003C3AD9 /* 用事があるので失礼します(悲しみ).m4a in Resources */,
+				D7D9BB8F1AF35B30003C3AD9 /* 大変でしたね.m4a in Resources */,
+				D7D9BA4F1AF35B30003C3AD9 /* おっしゃる通りです(嫌悪).m4a in Resources */,
+				D7D9BB981AF35B30003C3AD9 /* 知りませんでした.m4a in Resources */,
+				D7D9BADF1AF35B30003C3AD9 /* ぜひおねがいします(嫌悪).m4a in Resources */,
+				D7D9BB3C1AF35B30003C3AD9 /* はい(恐れ).m4a in Resources */,
+				D7D9BB061AF35B30003C3AD9 /* 結構です(恐れ).m4a in Resources */,
+				D7D9BB141AF35B30003C3AD9 /* いいえ(驚き).m4a in Resources */,
+				D7D9BA951AF35B30003C3AD9 /* いやぁ.mp3 in Resources */,
+				D7D9BA3B1AF35B30003C3AD9 /* うまべ感情.html in Resources */,
+				D7D9BAB11AF35B30003C3AD9 /* 頑張って下さい.mp3 in Resources */,
+				D7D9BAA11AF35B30003C3AD9 /* それだめじゃないです.mp3 in Resources */,
+				D7D9BB421AF35B30003C3AD9 /* ひどいですね(恐れ).m4a in Resources */,
+				D7D9BAB61AF35B30003C3AD9 /* ありがとうございます(幸福感).m4a in Resources */,
+				D7D9BA251AF35B30003C3AD9 /* えー！.mp3 in Resources */,
+				D7D9BB291AF35B30003C3AD9 /* すごいですね(怒り).m4a in Resources */,
+				D7D9BAAB1AF35B30003C3AD9 /* 何の再履修です.mp3 in Resources */,
+				D7D9BA9C1AF35B30003C3AD9 /* えー.mp3 in Resources */,
+				D7D9BA561AF35B30003C3AD9 /* さすがですね(幸福感).m4a in Resources */,
+				D7D9BA241AF35B30003C3AD9 /* えー.mp3 in Resources */,
+				D7D9BAEE1AF35B30003C3AD9 /* ひどいですね(恐れ).m4a in Resources */,
+				D7D9BB7B1AF35B30003C3AD9 /* ひどいですね.m4a in Resources */,
+				D7D9BAAC1AF35B30003C3AD9 /* 最終的に焼き鳥になるんですか？.mp3 in Resources */,
+				D7D9BA1C1AF35B30003C3AD9 /* いえぇぇえ.mp3 in Resources */,
+				D7D9BAA81AF35B30003C3AD9 /* わけわからん.mp3 in Resources */,
+				D7D9BAD31AF35B30003C3AD9 /* すごいですね(嫌悪).m4a in Resources */,
+				D7D9BA971AF35B30003C3AD9 /* いやいや.mp3 in Resources */,
+				D7D9BA921AF35B30003C3AD9 /* Uma.jpg in Resources */,
+				D7D9BA611AF35B30003C3AD9 /* すみません(嫌悪).m4a in Resources */,
+				D7D9BADB1AF35B30003C3AD9 /* すみません(怒り).m4a in Resources */,
+				D7D9BB041AF35B30003C3AD9 /* 結構です(幸福感).m4a in Resources */,
+				D7D9BB951AF35B30003C3AD9 /* 最高でどれくらいですか？.m4a in Resources */,
+				D7D9BB661AF35B30003C3AD9 /* お知り合いですか？.m4a in Resources */,
+				D7D9BB121AF35B30003C3AD9 /* いいえ(恐れ).m4a in Resources */,
+				D7D9BA1E1AF35B30003C3AD9 /* いやぁー.mp3 in Resources */,
+				D7D9BA311AF35B30003C3AD9 /* 何ですか.mp3 in Resources */,
+				D7D9BB901AF35B30003C3AD9 /* 嫌ならいいんだけど.m4a in Resources */,
+				D7D9BB7D1AF35B30003C3AD9 /* また今度聞かせてください.m4a in Resources */,
+				D7D9BA3C1AF35B30003C3AD9 /* 音声データ.html in Resources */,
+				D7D9BA7D1AF35B30003C3AD9 /* 大丈夫？(悲しみ).m4a in Resources */,
+				D7D9BA671AF35B30003C3AD9 /* ぜひおねがいします(嫌悪).m4a in Resources */,
+				D7D9BACA1AF35B30003C3AD9 /* おっしゃる通りです(恐れ).m4a in Resources */,
+				D7D9BB831AF35B30003C3AD9 /* 一言で言うと？.m4a in Resources */,
+				D7D9BAC01AF35B30003C3AD9 /* いいえ(驚き).m4a in Resources */,
+				D7D9BA1D1AF35B30003C3AD9 /* いやぁ.mp3 in Resources */,
+				D7D9BB181AF35B30003C3AD9 /* いえ、そんなことないですよ(恐れ).m4a in Resources */,
+				D7D9BA371AF35B30003C3AD9 /* 私も頑張りますぅ.mp3 in Resources */,
+				D7D9BAED1AF35B30003C3AD9 /* ひどいですね(怒り).m4a in Resources */,
+				D7D9BAA61AF35B30003C3AD9 /* ふええ.mp3 in Resources */,
+				D7D9BB0D1AF35B30003C3AD9 /* ありがとうございます(悲しみ).m4a in Resources */,
+				D7D9BB4E1AF35B30003C3AD9 /* 用事があるので失礼します(恐れ).m4a in Resources */,
+				D7D9BB9D1AF35B30003C3AD9 /* 興味はありますか？.m4a in Resources */,
+				D7D9BB161AF35B30003C3AD9 /* いえ、そんなことないですよ(幸福感).m4a in Resources */,
 				D713262D1AF347BF003A5932 /* Images.xcassets in Resources */,
+				D7D9BA7F1AF35B30003C3AD9 /* 用事があるので失礼します(嫌悪).m4a in Resources */,
+				D7D9BAC51AF35B30003C3AD9 /* いえ、そんなことないですよ(悲しみ).m4a in Resources */,
+				D7D9BA391AF35B30003C3AD9 /* 頑張って下さい.mp3 in Resources */,
+				D7D9BB1E1AF35B30003C3AD9 /* おっしゃる通りです(恐れ).m4a in Resources */,
+				D7D9BA431AF35B30003C3AD9 /* いいえ(嫌悪).m4a in Resources */,
+				D7D9BAD81AF35B30003C3AD9 /* すごいですね(驚き).m4a in Resources */,
+				D7D9BB621AF35B30003C3AD9 /* いろいろありますよね.m4a in Resources */,
+				D7D9BA6F1AF35B30003C3AD9 /* はい(怒り).m4a in Resources */,
+				D7D9BAA21AF35B30003C3AD9 /* それ思った.mp3 in Resources */,
+				D7D9BAA01AF35B30003C3AD9 /* おしまい？.mp3 in Resources */,
+				D7D9BAA41AF35B30003C3AD9 /* はい！.mp3 in Resources */,
+				D7D9BA2E1AF35B30003C3AD9 /* ふええ.mp3 in Resources */,
+				D7D9BABE1AF35B30003C3AD9 /* いいえ(恐れ).m4a in Resources */,
+				D7D9BA811AF35B30003C3AD9 /* 用事があるので失礼します(怒り).m4a in Resources */,
+				D7D9BADA1AF35B30003C3AD9 /* すみません(幸福感).m4a in Resources */,
+				D7D9BB1B1AF35B30003C3AD9 /* おっしゃる通りです(嫌悪).m4a in Resources */,
+				D7D9BB8C1AF35B30003C3AD9 /* 前から聞きたかったのですが.m4a in Resources */,
+				D7D9BB1D1AF35B30003C3AD9 /* おっしゃる通りです(怒り).m4a in Resources */,
+				D7D9BAEC1AF35B30003C3AD9 /* ひどいですね(幸福感).m4a in Resources */,
+				D7D9BB281AF35B30003C3AD9 /* すごいですね(幸福感).m4a in Resources */,
+				D7D9BB9B1AF35B30003C3AD9 /* 結構です.m4a in Resources */,
+				D7D9BACC1AF35B30003C3AD9 /* おっしゃる通りです(驚き).m4a in Resources */,
+				D7D9BA2A1AF35B30003C3AD9 /* それ思った.mp3 in Resources */,
+				D7D9BB631AF35B30003C3AD9 /* うらやましいです.m4a in Resources */,
+				D7D9BA4C1AF35B30003C3AD9 /* いえ、そんなことないですよ(恐れ).m4a in Resources */,
+				D7D9BA5A1AF35B30003C3AD9 /* さすがですね(驚き).m4a in Resources */,
+				D7D9BAF61AF35B30003C3AD9 /* 大丈夫？(驚き).m4a in Resources */,
+				D7D9BAA91AF35B30003C3AD9 /* 何ですか.mp3 in Resources */,
+				D7D9BAAF1AF35B30003C3AD9 /* 私も頑張りますぅ.mp3 in Resources */,
+				D7D9BA541AF35B30003C3AD9 /* おっしゃる通りです(驚き).m4a in Resources */,
+				D7D9BAC31AF35B30003C3AD9 /* いえ、そんなことないですよ(怒り).m4a in Resources */,
+				D7D9BB101AF35B30003C3AD9 /* いいえ(幸福感).m4a in Resources */,
+				D7D9BACD1AF35B30003C3AD9 /* さすがですね(嫌悪).m4a in Resources */,
+				D7D9BAFA1AF35B30003C3AD9 /* 用事があるので失礼します(恐れ).m4a in Resources */,
+				D7D9BAFD1AF35B30003C3AD9 /* 知りませんでした(嫌悪).m4a in Resources */,
+				D7D9BA7B1AF35B30003C3AD9 /* 大丈夫？(怒り).m4a in Resources */,
+				D7D9BA8C1AF35B30003C3AD9 /* 結構です(幸福感).m4a in Resources */,
+				D7D9BAF91AF35B30003C3AD9 /* 用事があるので失礼します(怒り).m4a in Resources */,
+				D7D9BABC1AF35B30003C3AD9 /* いいえ(幸福感).m4a in Resources */,
+				D7D9BB521AF35B30003C3AD9 /* 知りませんでした(幸福感).m4a in Resources */,
+				D7D9BB5F1AF35B30003C3AD9 /* ありがとうございます.m4a in Resources */,
+				D7D9BB271AF35B30003C3AD9 /* すごいですね(嫌悪).m4a in Resources */,
+				D7D9BA4B1AF35B30003C3AD9 /* いえ、そんなことないですよ(怒り).m4a in Resources */,
+				D7D9BAA31AF35B30003C3AD9 /* な？何を言ってる？.mp3 in Resources */,
+				D7D9BA5F1AF35B30003C3AD9 /* すごいですね(悲しみ).m4a in Resources */,
+				D7D9BB201AF35B30003C3AD9 /* おっしゃる通りです(驚き).m4a in Resources */,
+				D7D9BABD1AF35B30003C3AD9 /* いいえ(怒り).m4a in Resources */,
+				D7D9BAD11AF35B30003C3AD9 /* さすがですね(悲しみ).m4a in Resources */,
+				D7D9BA681AF35B30003C3AD9 /* ぜひおねがいします(幸福感).m4a in Resources */,
+				D7D9BB4F1AF35B30003C3AD9 /* 用事があるので失礼します(悲しみ).m4a in Resources */,
+				D7D9BA401AF35B30003C3AD9 /* ありがとうございます(恐れ).m4a in Resources */,
+				D7D9BA4A1AF35B30003C3AD9 /* いえ、そんなことないですよ(幸福感).m4a in Resources */,
+				D7D9BA721AF35B30003C3AD9 /* はい(驚き).m4a in Resources */,
+				D7D9BA601AF35B30003C3AD9 /* すごいですね(驚き).m4a in Resources */,
+				D7D9BA641AF35B30003C3AD9 /* すみません(恐れ).m4a in Resources */,
+				D7D9BB371AF35B30003C3AD9 /* ぜひおねがいします(悲しみ).m4a in Resources */,
+				D7D9BA461AF35B30003C3AD9 /* いいえ(恐れ).m4a in Resources */,
+				D7D9BADE1AF35B30003C3AD9 /* すみません(驚き).m4a in Resources */,
+				D7D9BA871AF35B30003C3AD9 /* 知りませんでした(怒り).m4a in Resources */,
+				D7D9BA571AF35B30003C3AD9 /* さすがですね(怒り).m4a in Resources */,
+				D7D9BB9C1AF35B30003C3AD9 /* 考えてみましょう.m4a in Resources */,
+				D7D9BB861AF35B30003C3AD9 /* 何がいいと思いますか？.m4a in Resources */,
+				D7D9BB8B1AF35B30003C3AD9 /* 初めてですか？.m4a in Resources */,
+				D7D9BB601AF35B30003C3AD9 /* いえ、そんなことないですよ.m4a in Resources */,
+				D7D9BAF41AF35B30003C3AD9 /* 大丈夫？(恐れ).m4a in Resources */,
+				D7D9BAE81AF35B30003C3AD9 /* はい(恐れ).m4a in Resources */,
+				D7D9BB6E1AF35B30003C3AD9 /* すみません.m4a in Resources */,
+				D7D9BAC71AF35B30003C3AD9 /* おっしゃる通りです(嫌悪).m4a in Resources */,
+				D7D9BB001AF35B30003C3AD9 /* 知りませんでした(恐れ).m4a in Resources */,
+				D7D9BA481AF35B30003C3AD9 /* いいえ(驚き).m4a in Resources */,
+				D7D9BAC61AF35B30003C3AD9 /* いえ、そんなことないですよ(驚き).m4a in Resources */,
+				D7D9BB691AF35B30003C3AD9 /* ここまで来たらとことんやりましょう.m4a in Resources */,
+				D7D9BB7C1AF35B30003C3AD9 /* まだ考え中です.m4a in Resources */,
+				D7D9BB171AF35B30003C3AD9 /* いえ、そんなことないですよ(怒り).m4a in Resources */,
+				D7D9BA321AF35B30003C3AD9 /* 何のことです.mp3 in Resources */,
+				D7D9BA831AF35B30003C3AD9 /* 用事があるので失礼します(悲しみ).m4a in Resources */,
+				D7D9BB4C1AF35B30003C3AD9 /* 用事があるので失礼します(幸福感).m4a in Resources */,
+				D7D9BA8F1AF35B30003C3AD9 /* 結構です(悲しみ).m4a in Resources */,
+				D7D9BB471AF35B30003C3AD9 /* 大丈夫？(怒り).m4a in Resources */,
+				D7D9BA6A1AF35B30003C3AD9 /* ぜひおねがいします(恐れ).m4a in Resources */,
+				D7D9BB611AF35B30003C3AD9 /* いやぁ.m4a in Resources */,
+				D7D9BB5E1AF35B30003C3AD9 /* あと少しですね.m4a in Resources */,
+				D7D9BB0E1AF35B30003C3AD9 /* ありがとうございます(驚き).m4a in Resources */,
+				D7D9BAFE1AF35B30003C3AD9 /* 知りませんでした(幸福感).m4a in Resources */,
+				D7D9BB3B1AF35B30003C3AD9 /* はい(怒り).m4a in Resources */,
+				D7D9BA711AF35B30003C3AD9 /* はい(悲しみ).m4a in Resources */,
+				D7D9BB761AF35B30003C3AD9 /* どこかに行かれましたか？.m4a in Resources */,
+				D7D9BB931AF35B30003C3AD9 /* 放っておいてよ.m4a in Resources */,
+				D7D9BA781AF35B30003C3AD9 /* ひどいですね(驚き).m4a in Resources */,
+				D7D9BAC41AF35B30003C3AD9 /* いえ、そんなことないですよ(恐れ).m4a in Resources */,
+				D7D9BB261AF35B30003C3AD9 /* さすがですね(驚き).m4a in Resources */,
+				D7D9BB991AF35B30003C3AD9 /* 私には思いつきません.m4a in Resources */,
+				D7D9BA6D1AF35B30003C3AD9 /* はい(嫌悪).m4a in Resources */,
+				D7D9BB0A1AF35B30003C3AD9 /* ありがとうございます(幸福感).m4a in Resources */,
+				D7D9BB301AF35B30003C3AD9 /* すみません(恐れ).m4a in Resources */,
+				D7D9BA9E1AF35B30003C3AD9 /* えー？.mp3 in Resources */,
+				D7D9BAE31AF35B30003C3AD9 /* ぜひおねがいします(悲しみ).m4a in Resources */,
+				D7D9BB9A1AF35B30003C3AD9 /* 素敵ですね.m4a in Resources */,
+				D7D9BB771AF35B30003C3AD9 /* どこがポイントになりますか？.m4a in Resources */,
+				D7D9BA631AF35B30003C3AD9 /* すみません(怒り).m4a in Resources */,
+				D7D9BA961AF35B30003C3AD9 /* いやぁー.mp3 in Resources */,
+				D7D9BB391AF35B30003C3AD9 /* はい(嫌悪).m4a in Resources */,
+				D7D9BA3D1AF35B30003C3AD9 /* ありがとうございます(嫌悪).m4a in Resources */,
+				D7D9BA6C1AF35B30003C3AD9 /* ぜひおねがいします(驚き).m4a in Resources */,
+				D7D9BAB51AF35B30003C3AD9 /* ありがとうございます(嫌悪).m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +1883,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D71326281AF347BF003A5932 /* ViewController.swift in Sources */,
+				D7D9BBA41AF378C1003C3AD9 /* ViewController.swift in Sources */,
+				D71326281AF347BF003A5932 /* TableViewController.swift in Sources */,
 				D71326261AF347BF003A5932 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,7 +2010,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "CommunicationSupportTool-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -348,7 +2022,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "CommunicationSupportTool-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -407,6 +2083,7 @@
 				D71326411AF347BF003A5932 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D71326421AF347BF003A5932 /* Build configuration list for PBXNativeTarget "CommunicationSupportTool-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +2092,7 @@
 				D71326441AF347BF003A5932 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
